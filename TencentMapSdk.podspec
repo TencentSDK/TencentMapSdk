@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TencentMapSdk"
-  s.version          = "2.1.1.04.04"
+  s.version          = "2.1.1.04.05"
   s.summary          = "This is TencentMapSdk."
   s.description      = 'The Map Software develop kit.'
   s.homepage         = "https://github.com/TencentSDK/TencentMapSdk"
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'SystemConfiguration','UIKit','CoreText','OpenGLES','QuartzCore','CoreGraphics','CoreLocation','CoreTelephony', 'Accelerate','ImageIO'
   s.ios.vendored_frameworks = 'Pod/Framework/TMapBeaconAPI_SDKBase.framework'
-  s.library = 'z','stdc++','libstdc++.6.0.9'
+  s.library = 'z','stdc++','stdc++.6.0.9'
 
 
 end
