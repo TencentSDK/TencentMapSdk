@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TencentMapSdk"
-  s.version          = "2.1.1.04.02"
+  s.version          = "2.1.1.04.03"
   s.summary          = "This is TencentMapSdk."
   s.description      = 'The Map Software develop kit.'
   s.homepage         = "https://github.com/TencentSDK/TencentMapSdk"
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.resources = 'Pod/Bundles/SOSOMAPRES.bundle'
 
   s.vendored_libraries = [
-    'Pod/Library/TencentMapSdk.a'
+    'Pod/Library/libQMapSdk.a'
   ]
 
   s.frameworks = 'SystemConfiguration','UIKit','CoreText','OpenGLES','QuartzCore','CoreGraphics','CoreLocation','CoreTelephony'
