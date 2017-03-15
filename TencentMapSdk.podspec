@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.resources = 'Pod/Bundles/SOSOMAPRES.bundle'
 
   s.vendored_libraries = [
-    'Pod/Library/libTencentMapSdk.a'
+    'Pod/Library/TencentMapSdk.a'
   ]
 
   s.frameworks = 'SystemConfiguration','UIKit','CoreText','OpenGLES','QuartzCore','CoreGraphics','CoreLocation','CoreTelephony'
