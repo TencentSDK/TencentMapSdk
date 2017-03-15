@@ -10,13 +10,8 @@
 Pod::Spec.new do |s|
   s.name             = "TencentMapSdk"
   s.version          = "2.1.1.04.01"
-  s.summary          = "A short description... of TencentMapSdk."
-  s.description      = <<-DESC.gsub(/^\s*\|?/,'')
-                       An optional longer description...... of TencentMapSdk
-
-                       | * Markdown format.
-                       | * Don't worry about the indent, we strip it!
-                       DESC
+  s.summary          = "This is TencentMapSdk."
+  s.description      = 'The Map Software develop kit.'
   s.homepage         = "https://github.com/TencentSDK/TencentMapSdk"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'BSD'
