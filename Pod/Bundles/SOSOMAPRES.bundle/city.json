@@ -1,0 +1,6059 @@
+[
+ {
+  "id": 0,
+  "roadid": 0,
+  "scale": 4,
+  "area": "",
+  "centerY": 34.34127,
+  "centerX": 108.93984,
+  "name": "全国概略图",
+  "hasBusline": false,
+  "shortPinyin": "china",
+  "pinyin": "china"
+ },
+ {
+  "id": 25,
+  "roadid": 0,
+  "scale": 11,
+  "bus": [
+   "beijingshi"
+  ],
+  "area": "",
+  "centerY": 39.90446,
+  "centerX": 116.40723,
+  "route": [
+   "beijing"
+  ],
+  "name": "北京市",
+  "hasBusline": true,
+  "shortPinyin": "bj",
+  "pinyin": "beijingshi"
+ },
+ {
+  "id": 230,
+  "roadid": 0,
+  "scale": 11,
+  "bus": [
+   "shanghaishi"
+  ],
+  "area": "",
+  "centerY": 31.230631,
+  "centerX": 121.474487,
+  "route": [
+   "shanghai"
+  ],
+  "name": "上海市",
+  "hasBusline": true,
+  "shortPinyin": "sh",
+  "pinyin": "shanghaishi"
+ },
+ {
+  "id": 26,
+  "roadid": 0,
+  "scale": 11,
+  "bus": [
+   "tianjinshi"
+  ],
+  "area": "",
+  "centerY": 39.085098,
+  "centerX": 117.199371,
+  "route": [
+   "tianjin"
+  ],
+  "name": "天津市",
+  "hasBusline": true,
+  "shortPinyin": "tj",
+  "pinyin": "tianjinshi"
+ },
+ {
+  "id": 35,
+  "roadid": 0,
+  "scale": 11,
+  "bus": [
+   "chongqingshi"
+  ],
+  "area": "",
+  "centerY": 29.56498,
+  "centerX": 106.550621,
+  "route": [
+   "chongqing"
+  ],
+  "name": "重庆市",
+  "hasBusline": true,
+  "shortPinyin": "cq",
+  "pinyin": "chongqingshi"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 2,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "hefeishi"
+    ],
+    "area": "",
+    "centerY": 31.82057,
+    "centerX": 117.22901,
+    "route": [],
+    "name": "合肥市",
+    "hasBusline": true,
+    "shortPinyin": "hf",
+    "pinyin": "hefeishi"
+   },
+   {
+    "id": 3,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "wuhushi"
+    ],
+    "area": "",
+    "centerY": 31.35243,
+    "centerX": 118.43325,
+    "route": [],
+    "name": "芜湖市",
+    "hasBusline": true,
+    "shortPinyin": "wh",
+    "pinyin": "wuhushi"
+   },
+   {
+    "id": 5,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "huainanshi"
+    ],
+    "area": "",
+    "centerY": 32.62532,
+    "centerX": 117.00017,
+    "route": [],
+    "name": "淮南市",
+    "hasBusline": true,
+    "shortPinyin": "hn",
+    "pinyin": "huainanshi"
+   },
+   {
+    "id": 6,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "maanshanshi"
+    ],
+    "area": "",
+    "centerY": 31.67047,
+    "centerX": 118.50653,
+    "route": [],
+    "name": "马鞍山市",
+    "hasBusline": true,
+    "shortPinyin": "mas",
+    "pinyin": "maanshanshi"
+   },
+   {
+    "id": 7,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "huaibeishi"
+    ],
+    "area": "",
+    "centerY": 33.95479,
+    "centerX": 116.79814,
+    "route": [],
+    "name": "淮北市",
+    "hasBusline": true,
+    "shortPinyin": "hb",
+    "pinyin": "huaibeishi"
+   },
+   {
+    "id": 8,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "tonglingshi"
+    ],
+    "area": "",
+    "centerY": 30.94485,
+    "centerX": 117.81232,
+    "route": [],
+    "name": "铜陵市",
+    "hasBusline": true,
+    "shortPinyin": "tl",
+    "pinyin": "tonglingshi"
+   },
+   {
+    "id": 9,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "anqingshi"
+    ],
+    "area": "",
+    "centerY": 30.5248,
+    "centerX": 117.05713,
+    "route": [],
+    "name": "安庆市",
+    "hasBusline": true,
+    "shortPinyin": "aq",
+    "pinyin": "anqingshi"
+   },
+   {
+    "id": 10,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "huangshanshi"
+    ],
+    "area": "",
+    "centerY": 29.71537,
+    "centerX": 118.33908,
+    "route": [],
+    "name": "黄山市",
+    "hasBusline": true,
+    "shortPinyin": "hs",
+    "pinyin": "huangshanshi"
+   },
+   {
+    "id": 12,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "fuyangshi"
+    ],
+    "area": "",
+    "centerY": 32.88984,
+    "centerX": 115.81424,
+    "route": [],
+    "name": "阜阳市",
+    "hasBusline": true,
+    "shortPinyin": "fy",
+    "pinyin": "fuyangshi"
+   },
+   {
+    "id": 13,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "su4zhoushi"
+    ],
+    "area": "",
+    "centerY": 33.6461,
+    "centerX": 116.96384,
+    "route": [],
+    "name": "宿州市",
+    "hasBusline": true,
+    "shortPinyin": "sz",
+    "pinyin": "su4zhoushi"
+   },
+   {
+    "id": 11,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "chuzhoushi"
+    ],
+    "area": "",
+    "centerY": 32.3018,
+    "centerX": 118.3169,
+    "route": [],
+    "name": "滁州市",
+    "hasBusline": true,
+    "shortPinyin": "cz",
+    "pinyin": "chuzhoushi"
+   },
+   {
+    "id": 17,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xuanchengshi"
+    ],
+    "area": "",
+    "centerY": 30.9404,
+    "centerX": 118.75917,
+    "route": [],
+    "name": "宣城市",
+    "hasBusline": true,
+    "shortPinyin": "xc",
+    "pinyin": "xuanchengshi"
+   },
+   {
+    "id": 16,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "chizhoushi"
+    ],
+    "area": "",
+    "centerY": 30.65288,
+    "centerX": 117.48744,
+    "route": [],
+    "name": "池州市",
+    "hasBusline": true,
+    "shortPinyin": "cz",
+    "pinyin": "chizhoushi"
+   },
+   {
+    "id": 15,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "bozhoushi"
+    ],
+    "area": "",
+    "centerY": 33.84443,
+    "centerX": 115.77851,
+    "route": [],
+    "name": "亳州市",
+    "hasBusline": true,
+    "shortPinyin": "bz",
+    "pinyin": "bozhoushi"
+   },
+   {
+    "id": 4,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "bengbushi"
+    ],
+    "area": "",
+    "centerY": 32.91547,
+    "centerX": 117.38931,
+    "route": [],
+    "name": "蚌埠市",
+    "hasBusline": true,
+    "shortPinyin": "bb",
+    "pinyin": "bengbushi"
+   },
+   {
+    "id": 14,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "luanshi"
+    ],
+    "area": "",
+    "centerY": 31.73476,
+    "centerX": 116.51968,
+    "route": [],
+    "name": "六安市",
+    "hasBusline": true,
+    "shortPinyin": "la",
+    "pinyin": "luanshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "anhui"
+  ],
+  "name": "安徽省",
+  "shortPinyin": "",
+  "pinyin": "anhuisheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 46,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "fu2zhoushi"
+    ],
+    "area": "",
+    "centerY": 26.07421,
+    "centerX": 119.29647,
+    "route": [],
+    "name": "福州市",
+    "hasBusline": true,
+    "shortPinyin": "fz",
+    "pinyin": "fu2zhoushi"
+   },
+   {
+    "id": 47,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xiamenshi"
+    ],
+    "area": "",
+    "centerY": 24.491539,
+    "centerX": 118.136158,
+    "route": [],
+    "name": "厦门市",
+    "hasBusline": true,
+    "shortPinyin": "xm",
+    "pinyin": "xiamenshi"
+   },
+   {
+    "id": 48,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "putianshi"
+    ],
+    "area": "",
+    "centerY": 25.45394,
+    "centerX": 119.00754,
+    "route": [],
+    "name": "莆田市",
+    "hasBusline": true,
+    "shortPinyin": "pt",
+    "pinyin": "putianshi"
+   },
+   {
+    "id": 49,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "sanmingshi"
+    ],
+    "area": "",
+    "centerY": 26.26384,
+    "centerX": 117.63913,
+    "route": [],
+    "name": "三明市",
+    "hasBusline": true,
+    "shortPinyin": "sm",
+    "pinyin": "sanmingshi"
+   },
+   {
+    "id": 50,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "quanzhoushi"
+    ],
+    "area": "",
+    "centerY": 24.87354,
+    "centerX": 118.6757,
+    "route": [],
+    "name": "泉州市",
+    "hasBusline": true,
+    "shortPinyin": "qz",
+    "pinyin": "quanzhoushi"
+   },
+   {
+    "id": 51,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhangzhoushi"
+    ],
+    "area": "",
+    "centerY": 24.51339,
+    "centerX": 117.64713,
+    "route": [],
+    "name": "漳州市",
+    "hasBusline": true,
+    "shortPinyin": "zz",
+    "pinyin": "zhangzhoushi"
+   },
+   {
+    "id": 52,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "nanpingshi"
+    ],
+    "area": "",
+    "centerY": 26.64144,
+    "centerX": 118.1777,
+    "route": [],
+    "name": "南平市",
+    "hasBusline": true,
+    "shortPinyin": "np",
+    "pinyin": "nanpingshi"
+   },
+   {
+    "id": 53,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "longyanshi"
+    ],
+    "area": "",
+    "centerY": 25.07503,
+    "centerX": 117.01721,
+    "route": [],
+    "name": "龙岩市",
+    "hasBusline": true,
+    "shortPinyin": "ly",
+    "pinyin": "longyanshi"
+   },
+   {
+    "id": 54,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "ningdeshi"
+    ],
+    "area": "",
+    "centerY": 26.66562,
+    "centerX": 119.5483,
+    "route": [],
+    "name": "宁德市",
+    "hasBusline": true,
+    "shortPinyin": "nd",
+    "pinyin": "ningdeshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "fujian"
+  ],
+  "name": "福建省",
+  "shortPinyin": "",
+  "pinyin": "fujiansheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 59,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "lanzhoushi"
+    ],
+    "area": "",
+    "centerY": 36.06138,
+    "centerX": 103.83417,
+    "route": [],
+    "name": "兰州市",
+    "hasBusline": true,
+    "shortPinyin": "lz",
+    "pinyin": "lanzhoushi"
+   },
+   {
+    "id": 60,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 39.77191,
+    "centerX": 98.28964,
+    "route": [],
+    "name": "嘉峪关市",
+    "hasBusline": false,
+    "shortPinyin": "jyg",
+    "pinyin": "jiayuguanshi"
+   },
+   {
+    "id": 61,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 38.52264,
+    "centerX": 102.18756,
+    "route": [],
+    "name": "金昌市",
+    "hasBusline": false,
+    "shortPinyin": "jc",
+    "pinyin": "jinchangshi"
+   },
+   {
+    "id": 62,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 36.54467,
+    "centerX": 104.1385,
+    "route": [],
+    "name": "白银市",
+    "hasBusline": false,
+    "shortPinyin": "by",
+    "pinyin": "baiyinshi"
+   },
+   {
+    "id": 63,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 34.58085,
+    "centerX": 105.72486,
+    "route": [],
+    "name": "天水市",
+    "hasBusline": false,
+    "shortPinyin": "ts",
+    "pinyin": "tianshuishi"
+   },
+   {
+    "id": 67,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 39.73255,
+    "centerX": 98.49394,
+    "route": [],
+    "name": "酒泉市",
+    "hasBusline": false,
+    "shortPinyin": "jq",
+    "pinyin": "jiuquanshi"
+   },
+   {
+    "id": 65,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 38.92586,
+    "centerX": 100.44974,
+    "route": [],
+    "name": "张掖市",
+    "hasBusline": false,
+    "shortPinyin": "zy",
+    "pinyin": "zhangyeshi"
+   },
+   {
+    "id": 64,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 37.92818,
+    "centerX": 102.63815,
+    "route": [],
+    "name": "武威市",
+    "hasBusline": false,
+    "shortPinyin": "ww",
+    "pinyin": "wuweishi"
+   },
+   {
+    "id": 69,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 35.58061,
+    "centerX": 104.62605,
+    "route": [],
+    "name": "定西市",
+    "hasBusline": false,
+    "shortPinyin": "dx",
+    "pinyin": "dingxishi"
+   },
+   {
+    "id": 70,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 33.40018,
+    "centerX": 104.92219,
+    "route": [],
+    "name": "陇南市",
+    "hasBusline": false,
+    "shortPinyin": "ln",
+    "pinyin": "longnanshi"
+   },
+   {
+    "id": 66,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 35.54216,
+    "centerX": 106.66495,
+    "route": [],
+    "name": "平凉市",
+    "hasBusline": false,
+    "shortPinyin": "pl",
+    "pinyin": "pingliangshi"
+   },
+   {
+    "id": 68,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 35.70899,
+    "centerX": 107.64422,
+    "route": [],
+    "name": "庆阳市",
+    "hasBusline": false,
+    "shortPinyin": "qy",
+    "pinyin": "qingyangshi"
+   },
+   {
+    "id": 71,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 35.60122,
+    "centerX": 103.21091,
+    "route": [],
+    "name": "临夏回族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "linxiahuizuzizhizhou"
+   },
+   {
+    "id": 72,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 34.98326,
+    "centerX": 102.91102,
+    "route": [],
+    "name": "甘南藏族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "gannanzangzuzizhizhou"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "gansu"
+  ],
+  "name": "甘肃省",
+  "shortPinyin": "",
+  "pinyin": "gansusheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 128,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "guangzhoushi"
+    ],
+    "area": "",
+    "centerY": 23.12908,
+    "centerX": 113.26436,
+    "route": [],
+    "name": "广州市",
+    "hasBusline": true,
+    "shortPinyin": "gz",
+    "pinyin": "guangzhoushi"
+   },
+   {
+    "id": 84,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shenzhenshi"
+    ],
+    "area": "",
+    "centerY": 22.5437,
+    "centerX": 114.05961,
+    "route": [],
+    "name": "深圳市",
+    "hasBusline": true,
+    "shortPinyin": "sz",
+    "pinyin": "shenzhenshi"
+   },
+   {
+    "id": 85,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhuhaishi"
+    ],
+    "area": "",
+    "centerY": 22.27073,
+    "centerX": 113.57669,
+    "route": [],
+    "name": "珠海市",
+    "hasBusline": true,
+    "shortPinyin": "zh",
+    "pinyin": "zhuhaishi"
+   },
+   {
+    "id": 86,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shantoushi"
+    ],
+    "area": "",
+    "centerY": 23.35355,
+    "centerX": 116.68213,
+    "route": [],
+    "name": "汕头市",
+    "hasBusline": true,
+    "shortPinyin": "st",
+    "pinyin": "shantoushi"
+   },
+   {
+    "id": 83,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shaoguanshi"
+    ],
+    "area": "",
+    "centerY": 24.84896,
+    "centerX": 113.60938,
+    "route": [],
+    "name": "韶关市",
+    "hasBusline": true,
+    "shortPinyin": "sg",
+    "pinyin": "shaoguanshi"
+   },
+   {
+    "id": 97,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jiangmenshi"
+    ],
+    "area": "",
+    "centerY": 22.57872,
+    "centerX": 113.0817,
+    "route": [],
+    "name": "江门市",
+    "hasBusline": true,
+    "shortPinyin": "jm",
+    "pinyin": "jiangmenshi"
+   },
+   {
+    "id": 98,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhanjiangshi"
+    ],
+    "area": "",
+    "centerY": 21.27083,
+    "centerX": 110.35934,
+    "route": [],
+    "name": "湛江市",
+    "hasBusline": true,
+    "shortPinyin": "zj",
+    "pinyin": "zhanjiangshi"
+   },
+   {
+    "id": 99,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "maomingshi"
+    ],
+    "area": "",
+    "centerY": 21.66329,
+    "centerX": 110.92523,
+    "route": [],
+    "name": "茂名市",
+    "hasBusline": true,
+    "shortPinyin": "mm",
+    "pinyin": "maomingshi"
+   },
+   {
+    "id": 100,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhaoqingshi"
+    ],
+    "area": "",
+    "centerY": 23.04704,
+    "centerX": 112.4653,
+    "route": [],
+    "name": "肇庆市",
+    "hasBusline": true,
+    "shortPinyin": "zq",
+    "pinyin": "zhaoqingshi"
+   },
+   {
+    "id": 87,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "huizhoushi"
+    ],
+    "area": "",
+    "centerY": 23.11075,
+    "centerX": 114.41679,
+    "route": [],
+    "name": "惠州市",
+    "hasBusline": true,
+    "shortPinyin": "hz",
+    "pinyin": "huizhoushi"
+   },
+   {
+    "id": 88,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "meizhoushi"
+    ],
+    "area": "",
+    "centerY": 24.28843,
+    "centerX": 116.12265,
+    "route": [],
+    "name": "梅州市",
+    "hasBusline": true,
+    "shortPinyin": "mz",
+    "pinyin": "meizhoushi"
+   },
+   {
+    "id": 89,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shanweishi"
+    ],
+    "area": "",
+    "centerY": 22.78575,
+    "centerX": 115.37546,
+    "route": [],
+    "name": "汕尾市",
+    "hasBusline": true,
+    "shortPinyin": "sw",
+    "pinyin": "shanweishi"
+   },
+   {
+    "id": 90,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "heyuanshi"
+    ],
+    "area": "",
+    "centerY": 23.74365,
+    "centerX": 114.70065,
+    "route": [],
+    "name": "河源市",
+    "hasBusline": true,
+    "shortPinyin": "hy",
+    "pinyin": "heyuanshi"
+   },
+   {
+    "id": 101,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yangjiangshi"
+    ],
+    "area": "",
+    "centerY": 21.85828,
+    "centerX": 111.98254,
+    "route": [],
+    "name": "阳江市",
+    "hasBusline": true,
+    "shortPinyin": "yj",
+    "pinyin": "yangjiangshi"
+   },
+   {
+    "id": 91,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "qingyuanshi"
+    ],
+    "area": "",
+    "centerY": 23.68201,
+    "centerX": 113.05615,
+    "route": [],
+    "name": "清远市",
+    "hasBusline": true,
+    "shortPinyin": "qy",
+    "pinyin": "qingyuanshi"
+   },
+   {
+    "id": 92,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "dongguanshi"
+    ],
+    "area": "",
+    "centerY": 23.02042,
+    "centerX": 113.75166,
+    "route": [],
+    "name": "东莞市",
+    "hasBusline": true,
+    "shortPinyin": "dg",
+    "pinyin": "dongguanshi"
+   },
+   {
+    "id": 102,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhongshanshi"
+    ],
+    "area": "",
+    "centerY": 22.516,
+    "centerX": 113.39271,
+    "route": [],
+    "name": "中山市",
+    "hasBusline": true,
+    "shortPinyin": "zs",
+    "pinyin": "zhongshanshi"
+   },
+   {
+    "id": 93,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "chaozhoushi"
+    ],
+    "area": "",
+    "centerY": 23.65664,
+    "centerX": 116.62286,
+    "route": [],
+    "name": "潮州市",
+    "hasBusline": true,
+    "shortPinyin": "cz",
+    "pinyin": "chaozhoushi"
+   },
+   {
+    "id": 94,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jieyangshi"
+    ],
+    "area": "",
+    "centerY": 23.54964,
+    "centerX": 116.37259,
+    "route": [],
+    "name": "揭阳市",
+    "hasBusline": true,
+    "shortPinyin": "jy",
+    "pinyin": "jieyangshi"
+   },
+   {
+    "id": 103,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yunfushi"
+    ],
+    "area": "",
+    "centerY": 22.91488,
+    "centerX": 112.04453,
+    "route": [],
+    "name": "云浮市",
+    "hasBusline": true,
+    "shortPinyin": "yf",
+    "pinyin": "yunfushi"
+   },
+   {
+    "id": 96,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "foshanshi"
+    ],
+    "area": "",
+    "centerY": 23.02435,
+    "centerX": 113.1217,
+    "route": [],
+    "name": "佛山市",
+    "hasBusline": true,
+    "shortPinyin": "fs",
+    "pinyin": "foshanshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "guangdong1",
+   "guangdong2",
+   "guangzhou"
+  ],
+  "name": "广东省",
+  "shortPinyin": "",
+  "pinyin": "guangdongsheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 113,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "nanningshi"
+    ],
+    "area": "",
+    "centerY": 22.81673,
+    "centerX": 108.3669,
+    "route": [],
+    "name": "南宁市",
+    "hasBusline": true,
+    "shortPinyin": "nn",
+    "pinyin": "nanningshi"
+   },
+   {
+    "id": 114,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "liuzhoushi"
+    ],
+    "area": "",
+    "centerY": 24.32543,
+    "centerX": 109.41571,
+    "route": [],
+    "name": "柳州市",
+    "hasBusline": true,
+    "shortPinyin": "lz",
+    "pinyin": "liuzhoushi"
+   },
+   {
+    "id": 115,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "guilinshi"
+    ],
+    "area": "",
+    "centerY": 25.27368,
+    "centerX": 110.29007,
+    "route": [],
+    "name": "桂林市",
+    "hasBusline": true,
+    "shortPinyin": "gl",
+    "pinyin": "guilinshi"
+   },
+   {
+    "id": 104,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "wuzhoushi"
+    ],
+    "area": "",
+    "centerY": 23.47703,
+    "centerX": 111.27914,
+    "route": [],
+    "name": "梧州市",
+    "hasBusline": true,
+    "shortPinyin": "wz",
+    "pinyin": "wuzhoushi"
+   },
+   {
+    "id": 105,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "beihaishi"
+    ],
+    "area": "",
+    "centerY": 21.48112,
+    "centerX": 109.12003,
+    "route": [],
+    "name": "北海市",
+    "hasBusline": true,
+    "shortPinyin": "bh",
+    "pinyin": "beihaishi"
+   },
+   {
+    "id": 116,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "fangchenggangshi"
+    ],
+    "area": "",
+    "centerY": 21.68685,
+    "centerX": 108.3539,
+    "route": [],
+    "name": "防城港市",
+    "hasBusline": true,
+    "shortPinyin": "fcg",
+    "pinyin": "fangchenggangshi"
+   },
+   {
+    "id": 117,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "qinzhoushi"
+    ],
+    "area": "",
+    "centerY": 21.98088,
+    "centerX": 108.65418,
+    "route": [],
+    "name": "钦州市",
+    "hasBusline": true,
+    "shortPinyin": "qz",
+    "pinyin": "qinzhoushi"
+   },
+   {
+    "id": 118,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "guigangshi"
+    ],
+    "area": "",
+    "centerY": 23.11134,
+    "centerX": 109.59924,
+    "route": [],
+    "name": "贵港市",
+    "hasBusline": true,
+    "shortPinyin": "gg",
+    "pinyin": "guigangshi"
+   },
+   {
+    "id": 106,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yu4linshi"
+    ],
+    "area": "",
+    "centerY": 22.63643,
+    "centerX": 110.16452,
+    "route": [],
+    "name": "玉林市",
+    "hasBusline": true,
+    "shortPinyin": "yl",
+    "pinyin": "yu4linshi"
+   },
+   {
+    "id": 119,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "baiseshi"
+    ],
+    "area": "",
+    "centerY": 23.9022,
+    "centerX": 106.61838,
+    "route": [],
+    "name": "百色市",
+    "hasBusline": true,
+    "shortPinyin": "bs",
+    "pinyin": "baiseshi"
+   },
+   {
+    "id": 107,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "hezhoushi"
+    ],
+    "area": "",
+    "centerY": 24.40228,
+    "centerX": 111.56751,
+    "route": [],
+    "name": "贺州市",
+    "hasBusline": true,
+    "shortPinyin": "hz",
+    "pinyin": "hezhoushi"
+   },
+   {
+    "id": 120,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "hechishi"
+    ],
+    "area": "",
+    "centerY": 24.69285,
+    "centerX": 108.08594,
+    "route": [],
+    "name": "河池市",
+    "hasBusline": true,
+    "shortPinyin": "hc",
+    "pinyin": "hechishi"
+   },
+   {
+    "id": 121,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "laibinshi"
+    ],
+    "area": "",
+    "centerY": 23.75037,
+    "centerX": 109.22128,
+    "route": [],
+    "name": "来宾市",
+    "hasBusline": true,
+    "shortPinyin": "lb",
+    "pinyin": "laibinshi"
+   },
+   {
+    "id": 122,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "chongzuoshi"
+    ],
+    "area": "",
+    "centerY": 22.37721,
+    "centerX": 107.365,
+    "route": [],
+    "name": "崇左市",
+    "hasBusline": true,
+    "shortPinyin": "cz",
+    "pinyin": "chongzuoshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "guangxi"
+  ],
+  "name": "广西壮族自治区",
+  "shortPinyin": "",
+  "pinyin": "guangxizhuangzuzizhiqu"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 129,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "guiyangshi"
+    ],
+    "area": "",
+    "centerY": 26.64702,
+    "centerX": 106.63024,
+    "route": [],
+    "name": "贵阳市",
+    "hasBusline": true,
+    "shortPinyin": "gy",
+    "pinyin": "guiyangshi"
+   },
+   {
+    "id": 130,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "liupanshuishi"
+    ],
+    "area": "",
+    "centerY": 26.59336,
+    "centerX": 104.83023,
+    "route": [],
+    "name": "六盘水市",
+    "hasBusline": true,
+    "shortPinyin": "lps",
+    "pinyin": "liupanshuishi"
+   },
+   {
+    "id": 43,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zunyishi"
+    ],
+    "area": "",
+    "centerY": 27.72538,
+    "centerX": 106.92716,
+    "route": [],
+    "name": "遵义市",
+    "hasBusline": true,
+    "shortPinyin": "zy",
+    "pinyin": "zunyishi"
+   },
+   {
+    "id": 131,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "anshunshi"
+    ],
+    "area": "",
+    "centerY": 26.25293,
+    "centerX": 105.94748,
+    "route": [],
+    "name": "安顺市",
+    "hasBusline": true,
+    "shortPinyin": "as",
+    "pinyin": "anshunshi"
+   },
+   {
+    "id": 123,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 25.08988,
+    "centerX": 104.90437,
+    "route": [],
+    "name": "黔西南布依族苗族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "qianxinanbuyizumiaozuzizhizhou"
+   },
+   {
+    "id": 124,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 26.58364,
+    "centerX": 107.98416,
+    "route": [],
+    "name": "黔东南苗族侗族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "qiandongnanmiaozudongzuzizhizhou"
+   },
+   {
+    "id": 125,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 26.25427,
+    "centerX": 107.52226,
+    "route": [],
+    "name": "黔南布依族苗族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "qiannanbuyizumiaozuzizhizhou"
+   },
+   {
+    "id": 44,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "tongrenshi"
+    ],
+    "area": "",
+    "centerY": 27.69066,
+    "centerX": 109.18099,
+    "route": [],
+    "name": "铜仁市",
+    "hasBusline": true,
+    "shortPinyin": "tr",
+    "pinyin": "tongrenshi"
+   },
+   {
+    "id": 132,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "bijieshi"
+    ],
+    "area": "",
+    "centerY": 27.29847,
+    "centerX": 105.30504,
+    "route": [],
+    "name": "毕节市",
+    "hasBusline": true,
+    "shortPinyin": "bj",
+    "pinyin": "bijieshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "guizhou"
+  ],
+  "name": "贵州省",
+  "shortPinyin": "",
+  "pinyin": "guizhousheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 108,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "haikoushi"
+    ],
+    "area": "",
+    "centerY": 20.04422,
+    "centerX": 110.19989,
+    "route": [],
+    "name": "海口市",
+    "hasBusline": true,
+    "shortPinyin": "hk",
+    "pinyin": "haikoushi"
+   },
+   {
+    "id": 134,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "sanyashi"
+    ],
+    "area": "",
+    "centerY": 18.25238,
+    "centerX": 109.51114,
+    "route": [],
+    "name": "三亚市",
+    "hasBusline": true,
+    "shortPinyin": "sy",
+    "pinyin": "sanyashi"
+   },
+   {
+    "id": 109,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 19.54386,
+    "centerX": 110.79721,
+    "route": [],
+    "name": "文昌市",
+    "hasBusline": false,
+    "shortPinyin": "wc",
+    "pinyin": "wenchangshi"
+   },
+   {
+    "id": 137,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 19.2583,
+    "centerX": 110.47458,
+    "route": [],
+    "name": "琼海市",
+    "hasBusline": false,
+    "shortPinyin": "qh",
+    "pinyin": "qionghaishi"
+   },
+   {
+    "id": 139,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 18.79474,
+    "centerX": 110.39154,
+    "route": [],
+    "name": "万宁市",
+    "hasBusline": false,
+    "shortPinyin": "wn",
+    "pinyin": "wanningshi"
+   },
+   {
+    "id": 136,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 18.77519,
+    "centerX": 109.51694,
+    "route": [],
+    "name": "五指山市",
+    "hasBusline": false,
+    "shortPinyin": "wzs",
+    "pinyin": "wuzhishanshi"
+   },
+   {
+    "id": 140,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 19.09536,
+    "centerX": 108.65204,
+    "route": [],
+    "name": "东方市",
+    "hasBusline": false,
+    "shortPinyin": "df",
+    "pinyin": "dongfangshi"
+   },
+   {
+    "id": 138,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 19.52093,
+    "centerX": 109.58063,
+    "route": [],
+    "name": "儋州市",
+    "hasBusline": false,
+    "shortPinyin": "dz",
+    "pinyin": "danzhoushi"
+   },
+   {
+    "id": 144,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 19.22522,
+    "centerX": 109.45148,
+    "route": [],
+    "name": "白沙黎族自治县",
+    "hasBusline": false,
+    "shortPinyin": "bs",
+    "pinyin": "baishalizuzizhixian"
+   },
+   {
+    "id": 148,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 18.63904,
+    "centerX": 109.70258,
+    "route": [],
+    "name": "保亭黎族苗族自治县",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "baotinglizumiaozuzizhixian"
+   },
+   {
+    "id": 145,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 19.29828,
+    "centerX": 109.0556,
+    "route": [],
+    "name": "昌江黎族自治县",
+    "hasBusline": false,
+    "shortPinyin": "cj",
+    "pinyin": "changjianglizuzizhixian"
+   },
+   {
+    "id": 110,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 19.73842,
+    "centerX": 110.00705,
+    "route": [],
+    "name": "澄迈县",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "chengmaixian"
+   },
+   {
+    "id": 141,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 19.68153,
+    "centerX": 110.35924,
+    "route": [],
+    "name": "定安县",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "dinganxian"
+   },
+   {
+    "id": 146,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 18.72559,
+    "centerX": 109.0567,
+    "route": [],
+    "name": "乐东黎族自治县",
+    "hasBusline": false,
+    "shortPinyin": "ld",
+    "pinyin": "ledonglizuzizhixian"
+   },
+   {
+    "id": 143,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 19.91243,
+    "centerX": 109.69077,
+    "route": [],
+    "name": "临高县",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "lingaoxian"
+   },
+   {
+    "id": 147,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 18.50134,
+    "centerX": 110.04276,
+    "route": [],
+    "name": "陵水黎族自治县",
+    "hasBusline": false,
+    "shortPinyin": "ls",
+    "pinyin": "lingshuilizuzizhixian"
+   },
+   {
+    "id": 149,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 19.03548,
+    "centerX": 109.83749,
+    "route": [],
+    "name": "琼中黎族苗族自治县",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "qiongzhonglizumiaozuzizhixian"
+   },
+   {
+    "id": 142,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 19.35183,
+    "centerX": 110.10349,
+    "route": [],
+    "name": "屯昌县",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "tunchangxian"
+   },
+   {
+    "id": 135,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 16.83299,
+    "centerX": 112.3336,
+    "route": [],
+    "name": "三沙市",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "sanshashi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "hainan"
+  ],
+  "name": "海南省",
+  "shortPinyin": "",
+  "pinyin": "hainansheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 150,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shijiazhuangshi"
+    ],
+    "area": "",
+    "centerY": 38.04276,
+    "centerX": 114.5143,
+    "route": [],
+    "name": "石家庄市",
+    "hasBusline": true,
+    "shortPinyin": "sjz",
+    "pinyin": "shijiazhuangshi"
+   },
+   {
+    "id": 151,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "tangshanshi"
+    ],
+    "area": "",
+    "centerY": 39.63047,
+    "centerX": 118.18057,
+    "route": [],
+    "name": "唐山市",
+    "hasBusline": true,
+    "shortPinyin": "ts",
+    "pinyin": "tangshanshi"
+   },
+   {
+    "id": 152,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "qinhuangdaoshi"
+    ],
+    "area": "",
+    "centerY": 39.93545,
+    "centerX": 119.60077,
+    "route": [],
+    "name": "秦皇岛市",
+    "hasBusline": true,
+    "shortPinyin": "qhd",
+    "pinyin": "qinhuangdaoshi"
+   },
+   {
+    "id": 153,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "handanshi"
+    ],
+    "area": "",
+    "centerY": 36.61213,
+    "centerX": 114.49339,
+    "route": [],
+    "name": "邯郸市",
+    "hasBusline": true,
+    "shortPinyin": "hd",
+    "pinyin": "handanshi"
+   },
+   {
+    "id": 154,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xingtaishi"
+    ],
+    "area": "",
+    "centerY": 37.07058,
+    "centerX": 114.50491,
+    "route": [],
+    "name": "邢台市",
+    "hasBusline": true,
+    "shortPinyin": "xt",
+    "pinyin": "xingtaishi"
+   },
+   {
+    "id": 27,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "baodingshi"
+    ],
+    "area": "",
+    "centerY": 38.87388,
+    "centerX": 115.46448,
+    "route": [],
+    "name": "保定市",
+    "hasBusline": true,
+    "shortPinyin": "bd",
+    "pinyin": "baodingshi"
+   },
+   {
+    "id": 28,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhangjiakoushi"
+    ],
+    "area": "",
+    "centerY": 40.82424,
+    "centerX": 114.88736,
+    "route": [],
+    "name": "张家口市",
+    "hasBusline": true,
+    "shortPinyin": "zjk",
+    "pinyin": "zhangjiakoushi"
+   },
+   {
+    "id": 29,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "chengdeshi"
+    ],
+    "area": "",
+    "centerY": 40.95277,
+    "centerX": 117.96307,
+    "route": [],
+    "name": "承德市",
+    "hasBusline": true,
+    "shortPinyin": "cd",
+    "pinyin": "chengdeshi"
+   },
+   {
+    "id": 155,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "cangzhoushi"
+    ],
+    "area": "",
+    "centerY": 38.30497,
+    "centerX": 116.83859,
+    "route": [],
+    "name": "沧州市",
+    "hasBusline": true,
+    "shortPinyin": "cz",
+    "pinyin": "cangzhoushi"
+   },
+   {
+    "id": 30,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "langfangshi"
+    ],
+    "area": "",
+    "centerY": 39.53775,
+    "centerX": 116.68376,
+    "route": [],
+    "name": "廊坊市",
+    "hasBusline": true,
+    "shortPinyin": "lf",
+    "pinyin": "langfangshi"
+   },
+   {
+    "id": 156,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "hengshuishi"
+    ],
+    "area": "",
+    "centerY": 37.73885,
+    "centerX": 115.67053,
+    "route": [],
+    "name": "衡水市",
+    "hasBusline": true,
+    "shortPinyin": "hs",
+    "pinyin": "hengshuishi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "hebei"
+  ],
+  "name": "河北省",
+  "shortPinyin": "",
+  "pinyin": "hebeisheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 189,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhengzhoushi"
+    ],
+    "area": "",
+    "centerY": 34.74725,
+    "centerX": 113.62493,
+    "route": [],
+    "name": "郑州市",
+    "hasBusline": true,
+    "shortPinyin": "zz",
+    "pinyin": "zhengzhoushi"
+   },
+   {
+    "id": 190,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "kaifengshi"
+    ],
+    "area": "",
+    "centerY": 34.79727,
+    "centerX": 114.30739,
+    "route": [],
+    "name": "开封市",
+    "hasBusline": true,
+    "shortPinyin": "kf",
+    "pinyin": "kaifengshi"
+   },
+   {
+    "id": 191,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "luoyangshi"
+    ],
+    "area": "",
+    "centerY": 34.61802,
+    "centerX": 112.45313,
+    "route": [],
+    "name": "洛阳市",
+    "hasBusline": true,
+    "shortPinyin": "ly",
+    "pinyin": "luoyangshi"
+   },
+   {
+    "id": 192,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "pingdingshanshi"
+    ],
+    "area": "",
+    "centerY": 33.76635,
+    "centerX": 113.1924,
+    "route": [],
+    "name": "平顶山市",
+    "hasBusline": true,
+    "shortPinyin": "pds",
+    "pinyin": "pingdingshanshi"
+   },
+   {
+    "id": 195,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jiaozuoshi"
+    ],
+    "area": "",
+    "centerY": 35.2156,
+    "centerX": 113.24194,
+    "route": [],
+    "name": "焦作市",
+    "hasBusline": true,
+    "shortPinyin": "jz",
+    "pinyin": "jiaozuoshi"
+   },
+   {
+    "id": 193,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "hebishi"
+    ],
+    "area": "",
+    "centerY": 35.75405,
+    "centerX": 114.29764,
+    "route": [],
+    "name": "鹤壁市",
+    "hasBusline": true,
+    "shortPinyin": "hb",
+    "pinyin": "hebishi"
+   },
+   {
+    "id": 194,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xinxiangshi"
+    ],
+    "area": "",
+    "centerY": 35.30323,
+    "centerX": 113.92727,
+    "route": [],
+    "name": "新乡市",
+    "hasBusline": true,
+    "shortPinyin": "xx",
+    "pinyin": "xinxiangshi"
+   },
+   {
+    "id": 170,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "anyangshi"
+    ],
+    "area": "",
+    "centerY": 36.09766,
+    "centerX": 114.39304,
+    "route": [],
+    "name": "安阳市",
+    "hasBusline": true,
+    "shortPinyin": "ay",
+    "pinyin": "anyangshi"
+   },
+   {
+    "id": 171,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "puyangshi"
+    ],
+    "area": "",
+    "centerY": 35.76188,
+    "centerX": 115.02933,
+    "route": [],
+    "name": "濮阳市",
+    "hasBusline": true,
+    "shortPinyin": "py",
+    "pinyin": "puyangshi"
+   },
+   {
+    "id": 196,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xuchangshi"
+    ],
+    "area": "",
+    "centerY": 34.03565,
+    "centerX": 113.85226,
+    "route": [],
+    "name": "许昌市",
+    "hasBusline": true,
+    "shortPinyin": "xc",
+    "pinyin": "xuchangshi"
+   },
+   {
+    "id": 197,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "luoheshi"
+    ],
+    "area": "",
+    "centerY": 33.58144,
+    "centerX": 114.01672,
+    "route": [],
+    "name": "漯河市",
+    "hasBusline": true,
+    "shortPinyin": "lh",
+    "pinyin": "luoheshi"
+   },
+   {
+    "id": 198,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "sanmenxiashi"
+    ],
+    "area": "",
+    "centerY": 34.77258,
+    "centerX": 111.20026,
+    "route": [],
+    "name": "三门峡市",
+    "hasBusline": true,
+    "shortPinyin": "smx",
+    "pinyin": "sanmenxiashi"
+   },
+   {
+    "id": 199,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "nanyangshi"
+    ],
+    "area": "",
+    "centerY": 32.99073,
+    "centerX": 112.52851,
+    "route": [],
+    "name": "南阳市",
+    "hasBusline": true,
+    "shortPinyin": "ny",
+    "pinyin": "nanyangshi"
+   },
+   {
+    "id": 200,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shangqiushi"
+    ],
+    "area": "",
+    "centerY": 34.44531,
+    "centerX": 115.64844,
+    "route": [],
+    "name": "商丘市",
+    "hasBusline": true,
+    "shortPinyin": "sq",
+    "pinyin": "shangqiushi"
+   },
+   {
+    "id": 21,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xinyangshi"
+    ],
+    "area": "",
+    "centerY": 32.14714,
+    "centerX": 114.09279,
+    "route": [],
+    "name": "信阳市",
+    "hasBusline": true,
+    "shortPinyin": "xy",
+    "pinyin": "xinyangshi"
+   },
+   {
+    "id": 22,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhoukoushi"
+    ],
+    "area": "",
+    "centerY": 33.62583,
+    "centerX": 114.69716,
+    "route": [],
+    "name": "周口市",
+    "hasBusline": true,
+    "shortPinyin": "zk",
+    "pinyin": "zhoukoushi"
+   },
+   {
+    "id": 201,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhumadianshi"
+    ],
+    "area": "",
+    "centerY": 33.01294,
+    "centerX": 114.02224,
+    "route": [],
+    "name": "驻马店市",
+    "hasBusline": true,
+    "shortPinyin": "zmd",
+    "pinyin": "zhumadianshi"
+   },
+   {
+    "id": 202,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+        "jiyuanshi"
+            ],
+    "area": "",
+    "centerY": 35.06748,
+    "centerX": 112.6037,
+    "route": [],
+    "name": "济源市",
+    "hasBusline": true,
+    "shortPinyin": "jy",
+    "pinyin": "jiyuanshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "henan"
+  ],
+  "name": "河南省",
+  "shortPinyin": "",
+  "pinyin": "henansheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 208,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "wuhanshi"
+    ],
+    "area": "",
+    "centerY": 30.59276,
+    "centerX": 114.30525,
+    "route": [],
+    "name": "武汉市",
+    "hasBusline": true,
+    "shortPinyin": "wh",
+    "pinyin": "wuhanshi"
+   },
+   {
+    "id": 209,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "huangshishi"
+    ],
+    "area": "",
+    "centerY": 30.19954,
+    "centerX": 115.03851,
+    "route": [],
+    "name": "黄石市",
+    "hasBusline": true,
+    "shortPinyin": "hs",
+    "pinyin": "huangshishi"
+   },
+   {
+    "id": 31,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shiyanshi"
+    ],
+    "area": "",
+    "centerY": 32.62917,
+    "centerX": 110.79868,
+    "route": [],
+    "name": "十堰市",
+    "hasBusline": true,
+    "shortPinyin": "sy",
+    "pinyin": "shiyanshi"
+   },
+   {
+    "id": 213,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jingzhoushi"
+    ],
+    "area": "",
+    "centerY": 30.33494,
+    "centerX": 112.23947,
+    "route": [],
+    "name": "荆州市",
+    "hasBusline": true,
+    "shortPinyin": "jz",
+    "pinyin": "jingzhoushi"
+   },
+   {
+    "id": 210,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yichangshi"
+    ],
+    "area": "",
+    "centerY": 30.6901,
+    "centerX": 111.29492,
+    "route": [],
+    "name": "宜昌市",
+    "hasBusline": true,
+    "shortPinyin": "yc",
+    "pinyin": "yichangshi"
+   },
+   {
+    "id": 212,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jingmenshi"
+    ],
+    "area": "",
+    "centerY": 31.03538,
+    "centerX": 112.19937,
+    "route": [],
+    "name": "荆门市",
+    "hasBusline": true,
+    "shortPinyin": "jm",
+    "pinyin": "jingmenshi"
+   },
+   {
+    "id": 211,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "ezhoushi"
+    ],
+    "area": "",
+    "centerY": 30.39099,
+    "centerX": 114.89487,
+    "route": [],
+    "name": "鄂州市",
+    "hasBusline": true,
+    "shortPinyin": "ez",
+    "pinyin": "ezhoushi"
+   },
+   {
+    "id": 204,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xiaoganshi"
+    ],
+    "area": "",
+    "centerY": 30.92474,
+    "centerX": 113.91632,
+    "route": [],
+    "name": "孝感市",
+    "hasBusline": true,
+    "shortPinyin": "xg",
+    "pinyin": "xiaoganshi"
+   },
+   {
+    "id": 23,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "huanggangshi"
+    ],
+    "area": "",
+    "centerY": 30.45355,
+    "centerX": 114.87204,
+    "route": [],
+    "name": "黄冈市",
+    "hasBusline": true,
+    "shortPinyin": "hg",
+    "pinyin": "huanggangshi"
+   },
+   {
+    "id": 214,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xianningshi"
+    ],
+    "area": "",
+    "centerY": 29.84127,
+    "centerX": 114.32245,
+    "route": [],
+    "name": "咸宁市",
+    "hasBusline": true,
+    "shortPinyin": "xn",
+    "pinyin": "xianningshi"
+   },
+   {
+    "id": 205,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "suizhoushi"
+    ],
+    "area": "",
+    "centerY": 31.69021,
+    "centerX": 113.38239,
+    "route": [],
+    "name": "随州市",
+    "hasBusline": true,
+    "shortPinyin": "sz",
+    "pinyin": "suizhoushi"
+   },
+   {
+    "id": 32,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 30.27217,
+    "centerX": 109.48817,
+    "route": [],
+    "name": "恩施土家族苗族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "enshitujiazumiaozuzizhizhou"
+   },
+   {
+    "id": 215,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 30.36247,
+    "centerX": 113.45444,
+    "route": [],
+    "name": "仙桃市",
+    "hasBusline": false,
+    "shortPinyin": "xt",
+    "pinyin": "xiantaoshi"
+   },
+   {
+    "id": 216,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 30.40218,
+    "centerX": 112.89911,
+    "route": [],
+    "name": "潜江市",
+    "hasBusline": false,
+    "shortPinyin": "qj",
+    "pinyin": "qianjiangshi"
+   },
+   {
+    "id": 217,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 30.66333,
+    "centerX": 113.16605,
+    "route": [],
+    "name": "天门市",
+    "hasBusline": false,
+    "shortPinyin": "tm",
+    "pinyin": "tianmenshi"
+   },
+   {
+    "id": 33,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 31.73881,
+    "centerX": 110.67548,
+    "route": [],
+    "name": "神农架林区",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "shennongjialinqu"
+   },
+   {
+    "id": 203,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xiangyangshi"
+    ],
+    "area": "",
+    "centerY": 32.00902,
+    "centerX": 112.12195,
+    "route": [],
+    "name": "襄阳市",
+    "hasBusline": true,
+    "shortPinyin": "nul",
+    "pinyin": "xiangyangshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "hubei"
+  ],
+  "name": "湖北省",
+  "shortPinyin": "",
+  "pinyin": "hubeisheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 222,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "changshashi"
+    ],
+    "area": "",
+    "centerY": 28.22778,
+    "centerX": 112.93886,
+    "route": [],
+    "name": "长沙市",
+    "hasBusline": true,
+    "shortPinyin": "cs",
+    "pinyin": "changshashi"
+   },
+   {
+    "id": 223,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhuzhoushi"
+    ],
+    "area": "",
+    "centerY": 27.82782,
+    "centerX": 113.1344,
+    "route": [],
+    "name": "株洲市",
+    "hasBusline": true,
+    "shortPinyin": "zz",
+    "pinyin": "zhuzhoushi"
+   },
+   {
+    "id": 224,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xiangtanshi"
+    ],
+    "area": "",
+    "centerY": 27.82973,
+    "centerX": 112.94409,
+    "route": [],
+    "name": "湘潭市",
+    "hasBusline": true,
+    "shortPinyin": "xt",
+    "pinyin": "xiangtanshi"
+   },
+   {
+    "id": 225,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "hengyangshi"
+    ],
+    "area": "",
+    "centerY": 26.89323,
+    "centerX": 112.57196,
+    "route": [],
+    "name": "衡阳市",
+    "hasBusline": true,
+    "shortPinyin": "hy",
+    "pinyin": "hengyangshi"
+   },
+   {
+    "id": 111,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shaoyangshi"
+    ],
+    "area": "",
+    "centerY": 27.23889,
+    "centerX": 111.46771,
+    "route": [],
+    "name": "邵阳市",
+    "hasBusline": true,
+    "shortPinyin": "sy",
+    "pinyin": "shaoyangshi"
+   },
+   {
+    "id": 218,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yueyangshi"
+    ],
+    "area": "",
+    "centerY": 29.35706,
+    "centerX": 113.12869,
+    "route": [],
+    "name": "岳阳市",
+    "hasBusline": true,
+    "shortPinyin": "yy",
+    "pinyin": "yueyangshi"
+   },
+   {
+    "id": 226,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "changdeshi"
+    ],
+    "area": "",
+    "centerY": 29.03158,
+    "centerX": 111.69849,
+    "route": [],
+    "name": "常德市",
+    "hasBusline": true,
+    "shortPinyin": "cd",
+    "pinyin": "changdeshi"
+   },
+   {
+    "id": 227,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhangjiajieshi"
+    ],
+    "area": "",
+    "centerY": 29.11702,
+    "centerX": 110.47917,
+    "route": [],
+    "name": "张家界市",
+    "hasBusline": true,
+    "shortPinyin": "zjj",
+    "pinyin": "zhangjiajieshi"
+   },
+   {
+    "id": 228,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yiyangshi"
+    ],
+    "area": "",
+    "centerY": 28.5542,
+    "centerX": 112.35522,
+    "route": [],
+    "name": "益阳市",
+    "hasBusline": true,
+    "shortPinyin": "yy",
+    "pinyin": "yiyangshi"
+   },
+   {
+    "id": 82,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "chenzhoushi"
+    ],
+    "area": "",
+    "centerY": 25.77063,
+    "centerX": 113.01485,
+    "route": [],
+    "name": "郴州市",
+    "hasBusline": true,
+    "shortPinyin": "cz",
+    "pinyin": "chenzhoushi"
+   },
+   {
+    "id": 95,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yongzhoushi"
+    ],
+    "area": "",
+    "centerY": 26.4196,
+    "centerX": 111.6134,
+    "route": [],
+    "name": "永州市",
+    "hasBusline": true,
+    "shortPinyin": "yz",
+    "pinyin": "yongzhoushi"
+   },
+   {
+    "id": 112,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "huaihuashi"
+    ],
+    "area": "",
+    "centerY": 27.56976,
+    "centerX": 110.00179,
+    "route": [],
+    "name": "怀化市",
+    "hasBusline": true,
+    "shortPinyin": "hh",
+    "pinyin": "huaihuashi"
+   },
+   {
+    "id": 229,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "loudishi"
+    ],
+    "area": "",
+    "centerY": 27.69727,
+    "centerX": 111.99451,
+    "route": [],
+    "name": "娄底市",
+    "hasBusline": true,
+    "shortPinyin": "ld",
+    "pinyin": "loudishi"
+   },
+   {
+    "id": 34,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 28.31173,
+    "centerX": 109.73893,
+    "route": [],
+    "name": "湘西土家族苗族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "xiangxitujiazumiaozuzizhizhou"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "hunan"
+  ],
+  "name": "湖南省",
+  "shortPinyin": "",
+  "pinyin": "hunansheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 1,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "nanjingshi"
+    ],
+    "area": "",
+    "centerY": 32.05838,
+    "centerX": 118.79647,
+    "route": [],
+    "name": "南京市",
+    "hasBusline": true,
+    "shortPinyin": "nj",
+    "pinyin": "nanjingshi"
+   },
+   {
+    "id": 231,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "wuxishi"
+    ],
+    "area": "",
+    "centerY": 31.49126,
+    "centerX": 120.31216,
+    "route": [],
+    "name": "无锡市",
+    "hasBusline": true,
+    "shortPinyin": "wx",
+    "pinyin": "wuxishi"
+   },
+   {
+    "id": 240,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xuzhoushi"
+    ],
+    "area": "",
+    "centerY": 34.20439,
+    "centerX": 117.28577,
+    "route": [],
+    "name": "徐州市",
+    "hasBusline": true,
+    "shortPinyin": "xz",
+    "pinyin": "xuzhoushi"
+   },
+   {
+    "id": 232,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "changzhoushi"
+    ],
+    "area": "",
+    "centerY": 31.81004,
+    "centerX": 119.97404,
+    "route": [],
+    "name": "常州市",
+    "hasBusline": true,
+    "shortPinyin": "cz",
+    "pinyin": "changzhoushi"
+   },
+   {
+    "id": 233,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "su1zhoushi"
+    ],
+    "area": "",
+    "centerY": 31.30859,
+    "centerX": 120.52734,
+    "route": [],
+    "name": "苏州市",
+    "hasBusline": true,
+    "shortPinyin": "sz",
+    "pinyin": "su1zhoushi"
+   },
+   {
+    "id": 234,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "nantongshi"
+    ],
+    "area": "",
+    "centerY": 31.98077,
+    "centerX": 120.89426,
+    "route": [],
+    "name": "南通市",
+    "hasBusline": true,
+    "shortPinyin": "nt",
+    "pinyin": "nantongshi"
+   },
+   {
+    "id": 241,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "lianyungangshi"
+    ],
+    "area": "",
+    "centerY": 34.59674,
+    "centerX": 119.22162,
+    "route": [],
+    "name": "连云港市",
+    "hasBusline": true,
+    "shortPinyin": "lyg",
+    "pinyin": "lianyungangshi"
+   },
+   {
+    "id": 242,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "huaianshi"
+    ],
+    "area": "",
+    "centerY": 33.61021,
+    "centerX": 119.01547,
+    "route": [],
+    "name": "淮安市",
+    "hasBusline": true,
+    "shortPinyin": "ha",
+    "pinyin": "huaianshi"
+   },
+   {
+    "id": 243,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yanchengshi"
+    ],
+    "area": "",
+    "centerY": 33.3151,
+    "centerX": 120.17188,
+    "route": [],
+    "name": "盐城市",
+    "hasBusline": true,
+    "shortPinyin": "yc",
+    "pinyin": "yanchengshi"
+   },
+   {
+    "id": 235,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yangzhoushi"
+    ],
+    "area": "",
+    "centerY": 32.46224,
+    "centerX": 119.37305,
+    "route": [],
+    "name": "扬州市",
+    "hasBusline": true,
+    "shortPinyin": "yz",
+    "pinyin": "yangzhoushi"
+   },
+   {
+    "id": 236,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhenjiangshi"
+    ],
+    "area": "",
+    "centerY": 32.187733,
+    "centerX": 119.424691,
+    "route": [],
+    "name": "镇江市",
+    "hasBusline": true,
+    "shortPinyin": "zj",
+    "pinyin": "zhenjiangshi"
+   },
+   {
+    "id": 237,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "tai3zhoushi"
+    ],
+    "area": "",
+    "centerY": 32.45481,
+    "centerX": 119.92291,
+    "route": [],
+    "name": "泰州市",
+    "hasBusline": true,
+    "shortPinyin": "tz",
+    "pinyin": "tai3zhoushi"
+   },
+   {
+    "id": 244,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "suqianshi"
+    ],
+    "area": "",
+    "centerY": 33.96187,
+    "centerX": 118.27539,
+    "route": [],
+    "name": "宿迁市",
+    "hasBusline": true,
+    "shortPinyin": "sq",
+    "pinyin": "suqianshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "jiangsu1",
+   "jiangsu2"
+  ],
+  "name": "江苏省",
+  "shortPinyin": "",
+  "pinyin": "jiangsusheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 250,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "nanchangshi"
+    ],
+    "area": "",
+    "centerY": 28.68202,
+    "centerX": 115.85794,
+    "route": [],
+    "name": "南昌市",
+    "hasBusline": true,
+    "shortPinyin": "nc",
+    "pinyin": "nanchangshi"
+   },
+   {
+    "id": 18,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jingdezhenshi"
+    ],
+    "area": "",
+    "centerY": 29.26274,
+    "centerX": 117.17795,
+    "route": [],
+    "name": "景德镇市",
+    "hasBusline": true,
+    "shortPinyin": "jdz",
+    "pinyin": "jingdezhenshi"
+   },
+   {
+    "id": 219,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "pingxiangshi"
+    ],
+    "area": "",
+    "centerY": 27.62217,
+    "centerX": 113.8551,
+    "route": [],
+    "name": "萍乡市",
+    "hasBusline": true,
+    "shortPinyin": "px",
+    "pinyin": "pingxiangshi"
+   },
+   {
+    "id": 19,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jiujiangshi"
+    ],
+    "area": "",
+    "centerY": 29.7054,
+    "centerX": 116.00134,
+    "route": [],
+    "name": "九江市",
+    "hasBusline": true,
+    "shortPinyin": "jj",
+    "pinyin": "jiujiangshi"
+   },
+   {
+    "id": 251,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xinyushi"
+    ],
+    "area": "",
+    "centerY": 27.81822,
+    "centerX": 114.9165,
+    "route": [],
+    "name": "新余市",
+    "hasBusline": true,
+    "shortPinyin": "xy",
+    "pinyin": "xinyushi"
+   },
+   {
+    "id": 55,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yingtanshi"
+    ],
+    "area": "",
+    "centerY": 28.26011,
+    "centerX": 117.06909,
+    "route": [],
+    "name": "鹰潭市",
+    "hasBusline": true,
+    "shortPinyin": "yt",
+    "pinyin": "yingtanshi"
+   },
+   {
+    "id": 56,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "ganzhoushi"
+    ],
+    "area": "",
+    "centerY": 25.8311,
+    "centerX": 114.93457,
+    "route": [],
+    "name": "赣州市",
+    "hasBusline": true,
+    "shortPinyin": "gz",
+    "pinyin": "ganzhoushi"
+   },
+   {
+    "id": 220,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jianshi"
+    ],
+    "area": "",
+    "centerY": 27.11381,
+    "centerX": 114.99347,
+    "route": [],
+    "name": "吉安市",
+    "hasBusline": true,
+    "shortPinyin": "ja",
+    "pinyin": "jianshi"
+   },
+   {
+    "id": 57,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "fu3zhoushi"
+    ],
+    "area": "",
+    "centerY": 27.9493,
+    "centerX": 116.35745,
+    "route": [],
+    "name": "抚州市",
+    "hasBusline": true,
+    "shortPinyin": "fz",
+    "pinyin": "fu3zhoushi"
+   },
+   {
+    "id": 20,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shangraoshi"
+    ],
+    "area": "",
+    "centerY": 28.45463,
+    "centerX": 117.94357,
+    "route": [],
+    "name": "上饶市",
+    "hasBusline": true,
+    "shortPinyin": "sr",
+    "pinyin": "shangraoshi"
+   },
+   {
+    "id": 221,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yi1chunshi"
+    ],
+    "area": "",
+    "centerY": 27.81511,
+    "centerX": 114.41626,
+    "route": [],
+    "name": "宜春市",
+    "hasBusline": true,
+    "shortPinyin": "yc",
+    "pinyin": "yi1chunshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "jiangxi"
+  ],
+  "name": "江西省",
+  "shortPinyin": "",
+  "pinyin": "jiangxisheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 257,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "changchunshi"
+    ],
+    "area": "",
+    "centerY": 43.81602,
+    "centerX": 125.32357,
+    "route": [],
+    "name": "长春市",
+    "hasBusline": true,
+    "shortPinyin": "cc",
+    "pinyin": "changchunshi"
+   },
+   {
+    "id": 258,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jilinshi"
+    ],
+    "area": "",
+    "centerY": 43.83773,
+    "centerX": 126.54938,
+    "route": [],
+    "name": "吉林市",
+    "hasBusline": true,
+    "shortPinyin": "jl",
+    "pinyin": "jilinshi"
+   },
+   {
+    "id": 259,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "sipingshi"
+    ],
+    "area": "",
+    "centerY": 43.16646,
+    "centerX": 124.35034,
+    "route": [],
+    "name": "四平市",
+    "hasBusline": true,
+    "shortPinyin": "sp",
+    "pinyin": "sipingshi"
+   },
+   {
+    "id": 260,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "liaoyuanshi"
+    ],
+    "area": "",
+    "centerY": 42.88812,
+    "centerX": 125.14368,
+    "route": [],
+    "name": "辽源市",
+    "hasBusline": true,
+    "shortPinyin": "ly",
+    "pinyin": "liaoyuanshi"
+   },
+   {
+    "id": 261,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "tonghuashi"
+    ],
+    "area": "",
+    "centerY": 41.72819,
+    "centerX": 125.93988,
+    "route": [],
+    "name": "通化市",
+    "hasBusline": true,
+    "shortPinyin": "th",
+    "pinyin": "tonghuashi"
+   },
+   {
+    "id": 262,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "baishanshi"
+    ],
+    "area": "",
+    "centerY": 41.94023,
+    "centerX": 126.42371,
+    "route": [],
+    "name": "白山市",
+    "hasBusline": true,
+    "shortPinyin": "bs",
+    "pinyin": "baishanshi"
+   },
+   {
+    "id": 263,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "songyuanshi"
+    ],
+    "area": "",
+    "centerY": 45.14142,
+    "centerX": 124.8248,
+    "route": [],
+    "name": "松原市",
+    "hasBusline": true,
+    "shortPinyin": "sy",
+    "pinyin": "songyuanshi"
+   },
+   {
+    "id": 264,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "baichengshi"
+    ],
+    "area": "",
+    "centerY": 45.61953,
+    "centerX": 122.83859,
+    "route": [],
+    "name": "白城市",
+    "hasBusline": true,
+    "shortPinyin": "bc",
+    "pinyin": "baichengshi"
+   },
+   {
+    "id": 265,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 42.89119,
+    "centerX": 129.5091,
+    "route": [],
+    "name": "延边朝鲜族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "yanbianchaoxianzuzizhizhou"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "jilin"
+  ],
+  "name": "吉林省",
+  "shortPinyin": "",
+  "pinyin": "jilinsheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 266,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shenyangshi"
+    ],
+    "area": "",
+    "centerY": 41.80563,
+    "centerX": 123.43236,
+    "route": [],
+    "name": "沈阳市",
+    "hasBusline": true,
+    "shortPinyin": "sy",
+    "pinyin": "shenyangshi"
+   },
+   {
+    "id": 267,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "dalianshi"
+    ],
+    "area": "",
+    "centerY": 38.91362,
+    "centerX": 121.61472,
+    "route": [],
+    "name": "大连市",
+    "hasBusline": true,
+    "shortPinyin": "dl",
+    "pinyin": "dalianshi"
+   },
+   {
+    "id": 268,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "anshanshi"
+    ],
+    "area": "",
+    "centerY": 41.10863,
+    "centerX": 122.99497,
+    "route": [],
+    "name": "鞍山市",
+    "hasBusline": true,
+    "shortPinyin": "as",
+    "pinyin": "anshanshi"
+   },
+   {
+    "id": 253,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "fushunshi"
+    ],
+    "area": "",
+    "centerY": 41.87864,
+    "centerX": 123.95422,
+    "route": [],
+    "name": "抚顺市",
+    "hasBusline": true,
+    "shortPinyin": "fs",
+    "pinyin": "fushunshi"
+   },
+   {
+    "id": 254,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "benxishi"
+    ],
+    "area": "",
+    "centerY": 41.29427,
+    "centerX": 123.76764,
+    "route": [],
+    "name": "本溪市",
+    "hasBusline": true,
+    "shortPinyin": "bx",
+    "pinyin": "benxishi"
+   },
+   {
+    "id": 255,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "dandongshi"
+    ],
+    "area": "",
+    "centerY": 40.00115,
+    "centerX": 124.35646,
+    "route": [],
+    "name": "丹东市",
+    "hasBusline": true,
+    "shortPinyin": "dd",
+    "pinyin": "dandongshi"
+   },
+   {
+    "id": 269,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jinzhoushi"
+    ],
+    "area": "",
+    "centerY": 41.09395,
+    "centerX": 121.13525,
+    "route": [],
+    "name": "锦州市",
+    "hasBusline": true,
+    "shortPinyin": "jz",
+    "pinyin": "jinzhoushi"
+   },
+   {
+    "id": 270,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yingkoushi"
+    ],
+    "area": "",
+    "centerY": 40.66677,
+    "centerX": 122.23483,
+    "route": [],
+    "name": "营口市",
+    "hasBusline": true,
+    "shortPinyin": "yk",
+    "pinyin": "yingkoushi"
+   },
+   {
+    "id": 271,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "fuxinshi"
+    ],
+    "area": "",
+    "centerY": 42.02191,
+    "centerX": 121.66962,
+    "route": [],
+    "name": "阜新市",
+    "hasBusline": true,
+    "shortPinyin": "fx",
+    "pinyin": "fuxinshi"
+   },
+   {
+    "id": 272,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "liaoyangshi"
+    ],
+    "area": "",
+    "centerY": 41.26934,
+    "centerX": 123.17352,
+    "route": [],
+    "name": "辽阳市",
+    "hasBusline": true,
+    "shortPinyin": "ly",
+    "pinyin": "liaoyangshi"
+   },
+   {
+    "id": 273,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "panjinshi"
+    ],
+    "area": "",
+    "centerY": 41.12063,
+    "centerX": 122.07205,
+    "route": [],
+    "name": "盘锦市",
+    "hasBusline": true,
+    "shortPinyin": "pj",
+    "pinyin": "panjinshi"
+   },
+   {
+    "id": 256,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "tielingshi"
+    ],
+    "area": "",
+    "centerY": 42.22349,
+    "centerX": 123.72583,
+    "route": [],
+    "name": "铁岭市",
+    "hasBusline": true,
+    "shortPinyin": "tl",
+    "pinyin": "tielingshi"
+   },
+   {
+    "id": 165,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "chaoyangshi"
+    ],
+    "area": "",
+    "centerY": 41.57365,
+    "centerX": 120.44989,
+    "route": [],
+    "name": "朝阳市",
+    "hasBusline": true,
+    "shortPinyin": "cy",
+    "pinyin": "chaoyangshi"
+   },
+   {
+    "id": 166,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "huludaoshi"
+    ],
+    "area": "",
+    "centerY": 40.70982,
+    "centerX": 120.83594,
+    "route": [],
+    "name": "葫芦岛市",
+    "hasBusline": true,
+    "shortPinyin": "hld",
+    "pinyin": "huludaoshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "liaoning"
+  ],
+  "name": "辽宁省",
+  "shortPinyin": "",
+  "pinyin": "liaoningsheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 282,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yinchuanshi"
+    ],
+    "area": "",
+    "centerY": 38.48644,
+    "centerX": 106.23248,
+    "route": [],
+    "name": "银川市",
+    "hasBusline": true,
+    "shortPinyin": "yc",
+    "pinyin": "yinchuanshi"
+   },
+   {
+    "id": 283,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shizuishanshi"
+    ],
+    "area": "",
+    "centerY": 38.98411,
+    "centerX": 106.38419,
+    "route": [],
+    "name": "石嘴山市",
+    "hasBusline": true,
+    "shortPinyin": "szs",
+    "pinyin": "shizuishanshi"
+   },
+   {
+    "id": 78,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "wuzhongshi"
+    ],
+    "area": "",
+    "centerY": 37.99771,
+    "centerX": 106.19881,
+    "route": [],
+    "name": "吴忠市",
+    "hasBusline": true,
+    "shortPinyin": "wz",
+    "pinyin": "wuzhongshi"
+   },
+   {
+    "id": 79,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "guyuanshi"
+    ],
+    "area": "",
+    "centerY": 36.0158,
+    "centerX": 106.24262,
+    "route": [],
+    "name": "固原市",
+    "hasBusline": true,
+    "shortPinyin": "gy",
+    "pinyin": "guyuanshi"
+   },
+   {
+    "id": 80,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhongweishi"
+    ],
+    "area": "",
+    "centerY": 37.50026,
+    "centerX": 105.19675,
+    "route": [],
+    "name": "中卫市",
+    "hasBusline": true,
+    "shortPinyin": "zw",
+    "pinyin": "zhongweishi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "ningxia"
+  ],
+  "name": "宁夏回族自治区",
+  "shortPinyin": "",
+  "pinyin": "ningxiahuizuzizhiqu"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 288,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xiningshi"
+    ],
+    "area": "",
+    "centerY": 36.61729,
+    "centerX": 101.77782,
+    "route": [],
+    "name": "西宁市",
+    "hasBusline": true,
+    "shortPinyin": "xn",
+    "pinyin": "xiningshi"
+   },
+   {
+    "id": 74,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 36.95454,
+    "centerX": 100.90096,
+    "route": [],
+    "name": "海北藏族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "haibeizangzuzizhizhou"
+   },
+   {
+    "id": 75,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 35.51991,
+    "centerX": 102.01507,
+    "route": [],
+    "name": "黄南藏族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "huangnanzangzuzizhizhou"
+   },
+   {
+    "id": 289,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 36.28643,
+    "centerX": 100.62021,
+    "route": [],
+    "name": "海南藏族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "hainanzangzuzizhizhou"
+   },
+   {
+    "id": 76,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 34.47141,
+    "centerX": 100.24475,
+    "route": [],
+    "name": "果洛藏族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "guoluozangzuzizhizhou"
+   },
+   {
+    "id": 290,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 33.00528,
+    "centerX": 97.0065,
+    "route": [],
+    "name": "玉树藏族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "yushuzangzuzizhizhou"
+   },
+   {
+    "id": 77,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 37.3771,
+    "centerX": 97.37122,
+    "route": [],
+    "name": "海西蒙古族藏族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "haiximengguzuzangzuzizhizhou"
+   },
+   {
+    "id": 73,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 36.48209,
+    "centerX": 102.40173,
+    "route": [],
+    "name": "海东市",
+    "hasBusline": false,
+    "shortPinyin": "hd",
+    "pinyin": "haidongshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "qinghai"
+  ],
+  "name": "青海省",
+  "shortPinyin": "",
+  "pinyin": "qinghaisheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 300,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jinanshi"
+    ],
+    "area": "",
+    "centerY": 36.66529,
+    "centerX": 116.99493,
+    "route": [],
+    "name": "济南市",
+    "hasBusline": true,
+    "shortPinyin": "jn",
+    "pinyin": "jinanshi"
+   },
+   {
+    "id": 305,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "qingdaoshi"
+    ],
+    "area": "",
+    "centerY": 36.0673,
+    "centerX": 120.38267,
+    "route": [],
+    "name": "青岛市",
+    "hasBusline": true,
+    "shortPinyin": "qd",
+    "pinyin": "qingdaoshi"
+   },
+   {
+    "id": 301,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "ziboshi"
+    ],
+    "area": "",
+    "centerY": 36.81283,
+    "centerX": 118.05496,
+    "route": [],
+    "name": "淄博市",
+    "hasBusline": true,
+    "shortPinyin": "zb",
+    "pinyin": "ziboshi"
+   },
+   {
+    "id": 245,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zaozhuangshi"
+    ],
+    "area": "",
+    "centerY": 34.82292,
+    "centerX": 117.44141,
+    "route": [],
+    "name": "枣庄市",
+    "hasBusline": true,
+    "shortPinyin": "zz",
+    "pinyin": "zaozhuangshi"
+   },
+   {
+    "id": 302,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "dongyingshi"
+    ],
+    "area": "",
+    "centerY": 37.43359,
+    "centerX": 118.67459,
+    "route": [],
+    "name": "东营市",
+    "hasBusline": true,
+    "shortPinyin": "dy",
+    "pinyin": "dongyingshi"
+   },
+   {
+    "id": 274,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yantaishi"
+    ],
+    "area": "",
+    "centerY": 37.46354,
+    "centerX": 121.44757,
+    "route": [],
+    "name": "烟台市",
+    "hasBusline": true,
+    "shortPinyin": "yt",
+    "pinyin": "yantaishi"
+   },
+   {
+    "id": 306,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "weifangshi"
+    ],
+    "area": "",
+    "centerY": 36.70687,
+    "centerX": 119.16177,
+    "route": [],
+    "name": "潍坊市",
+    "hasBusline": true,
+    "shortPinyin": "wf",
+    "pinyin": "weifangshi"
+   },
+   {
+    "id": 275,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "weihaishi"
+    ],
+    "area": "",
+    "centerY": 37.51357,
+    "centerX": 122.12161,
+    "route": [],
+    "name": "威海市",
+    "hasBusline": true,
+    "shortPinyin": "wh",
+    "pinyin": "weihaishi"
+   },
+   {
+    "id": 246,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jiningshi"
+    ],
+    "area": "",
+    "centerY": 35.41459,
+    "centerX": 116.58722,
+    "route": [],
+    "name": "济宁市",
+    "hasBusline": true,
+    "shortPinyin": "jn",
+    "pinyin": "jiningshi"
+   },
+   {
+    "id": 303,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "taianshi"
+    ],
+    "area": "",
+    "centerY": 36.09896,
+    "centerX": 117.20313,
+    "route": [],
+    "name": "泰安市",
+    "hasBusline": true,
+    "shortPinyin": "ta",
+    "pinyin": "taianshi"
+   },
+   {
+    "id": 247,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "rizhaoshi"
+    ],
+    "area": "",
+    "centerY": 35.29297,
+    "centerX": 119.39063,
+    "route": [],
+    "name": "日照市",
+    "hasBusline": true,
+    "shortPinyin": "rz",
+    "pinyin": "rizhaoshi"
+   },
+   {
+    "id": 304,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "laiwushi"
+    ],
+    "area": "",
+    "centerY": 36.21359,
+    "centerX": 117.67667,
+    "route": [],
+    "name": "莱芜市",
+    "hasBusline": true,
+    "shortPinyin": "lw",
+    "pinyin": "laiwushi"
+   },
+   {
+    "id": 248,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "linyishi"
+    ],
+    "area": "",
+    "centerY": 35.10466,
+    "centerX": 118.35645,
+    "route": [],
+    "name": "临沂市",
+    "hasBusline": true,
+    "shortPinyin": "ly",
+    "pinyin": "linyishi"
+   },
+   {
+    "id": 167,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "dezhoushi"
+    ],
+    "area": "",
+    "centerY": 37.43553,
+    "centerX": 116.35907,
+    "route": [],
+    "name": "德州市",
+    "hasBusline": true,
+    "shortPinyin": "dz",
+    "pinyin": "dezhoushi"
+   },
+   {
+    "id": 168,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "liaochengshi"
+    ],
+    "area": "",
+    "centerY": 36.45589,
+    "centerX": 115.98535,
+    "route": [],
+    "name": "聊城市",
+    "hasBusline": true,
+    "shortPinyin": "lc",
+    "pinyin": "liaochengshi"
+   },
+   {
+    "id": 169,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "binzhoushi"
+    ],
+    "area": "",
+    "centerY": 37.38186,
+    "centerX": 117.97073,
+    "route": [],
+    "name": "滨州市",
+    "hasBusline": true,
+    "shortPinyin": "bz",
+    "pinyin": "binzhoushi"
+   },
+   {
+    "id": 249,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "hezeshi"
+    ],
+    "area": "",
+    "centerY": 35.23357,
+    "centerX": 115.48066,
+    "route": [],
+    "name": "菏泽市",
+    "hasBusline": true,
+    "shortPinyin": "hz",
+    "pinyin": "hezeshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "shandong1",
+   "shandong2"
+  ],
+  "name": "山东省",
+  "shortPinyin": "",
+  "pinyin": "shandongsheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 308,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "taiyuanshi"
+    ],
+    "area": "",
+    "centerY": 37.87059,
+    "centerX": 112.55067,
+    "route": [],
+    "name": "太原市",
+    "hasBusline": true,
+    "shortPinyin": "ty",
+    "pinyin": "taiyuanshi"
+   },
+   {
+    "id": 157,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "datongshi"
+    ],
+    "area": "",
+    "centerY": 40.07634,
+    "centerX": 113.30001,
+    "route": [],
+    "name": "大同市",
+    "hasBusline": true,
+    "shortPinyin": "dt",
+    "pinyin": "datongshi"
+   },
+   {
+    "id": 158,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yangquanshi"
+    ],
+    "area": "",
+    "centerY": 37.85663,
+    "centerX": 113.58038,
+    "route": [],
+    "name": "阳泉市",
+    "hasBusline": true,
+    "shortPinyin": "yq",
+    "pinyin": "yangquanshi"
+   },
+   {
+    "id": 159,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "changzhishi"
+    ],
+    "area": "",
+    "centerY": 36.1952,
+    "centerX": 113.11765,
+    "route": [],
+    "name": "长治市",
+    "hasBusline": true,
+    "shortPinyin": "cz",
+    "pinyin": "changzhishi"
+   },
+   {
+    "id": 187,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jinchengshi"
+    ],
+    "area": "",
+    "centerY": 35.49082,
+    "centerX": 112.85175,
+    "route": [],
+    "name": "晋城市",
+    "hasBusline": true,
+    "shortPinyin": "jc",
+    "pinyin": "jinchengshi"
+   },
+   {
+    "id": 309,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shuozhoushi"
+    ],
+    "area": "",
+    "centerY": 39.33154,
+    "centerX": 112.43286,
+    "route": [],
+    "name": "朔州市",
+    "hasBusline": true,
+    "shortPinyin": "sz",
+    "pinyin": "shuozhoushi"
+   },
+   {
+    "id": 160,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jinzhongshi"
+    ],
+    "area": "",
+    "centerY": 37.68722,
+    "centerX": 112.75119,
+    "route": [],
+    "name": "晋中市",
+    "hasBusline": true,
+    "shortPinyin": "jz",
+    "pinyin": "jinzhongshi"
+   },
+   {
+    "id": 188,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yunchengshi"
+    ],
+    "area": "",
+    "centerY": 35.02639,
+    "centerX": 111.00693,
+    "route": [],
+    "name": "运城市",
+    "hasBusline": true,
+    "shortPinyin": "yc",
+    "pinyin": "yunchengshi"
+   },
+   {
+    "id": 161,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xinzhoushi"
+    ],
+    "area": "",
+    "centerY": 38.41669,
+    "centerX": 112.73416,
+    "route": [],
+    "name": "忻州市",
+    "hasBusline": true,
+    "shortPinyin": "xz",
+    "pinyin": "xinzhoushi"
+   },
+   {
+    "id": 292,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "linfenshi"
+    ],
+    "area": "",
+    "centerY": 36.08779,
+    "centerX": 111.51924,
+    "route": [],
+    "name": "临汾市",
+    "hasBusline": true,
+    "shortPinyin": "lf",
+    "pinyin": "linfenshi"
+   },
+   {
+    "id": 293,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "lvliangshi"
+    ],
+    "area": "",
+    "centerY": 37.51991,
+    "centerX": 111.14416,
+    "route": [],
+    "name": "吕梁市",
+    "hasBusline": true,
+    "shortPinyin": "ll",
+    "pinyin": "lvliangshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "shanxi"
+  ],
+  "name": "山西省",
+  "shortPinyin": "",
+  "pinyin": "shan1xisheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 294,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xianshi"
+    ],
+    "area": "",
+    "centerY": 34.34127,
+    "centerX": 108.93984,
+    "route": [],
+    "name": "西安市",
+    "hasBusline": true,
+    "shortPinyin": "xa",
+    "pinyin": "xianshi"
+   },
+   {
+    "id": 295,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "tongchuanshi"
+    ],
+    "area": "",
+    "centerY": 34.89673,
+    "centerX": 108.94516,
+    "route": [],
+    "name": "铜川市",
+    "hasBusline": true,
+    "shortPinyin": "tc",
+    "pinyin": "tongchuanshi"
+   },
+   {
+    "id": 296,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "baojishi"
+    ],
+    "area": "",
+    "centerY": 34.36289,
+    "centerX": 107.23847,
+    "route": [],
+    "name": "宝鸡市",
+    "hasBusline": true,
+    "shortPinyin": "bj",
+    "pinyin": "baojishi"
+   },
+   {
+    "id": 297,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xianyangshi"
+    ],
+    "area": "",
+    "centerY": 34.32933,
+    "centerX": 108.7094,
+    "route": [],
+    "name": "咸阳市",
+    "hasBusline": true,
+    "shortPinyin": "xy",
+    "pinyin": "xianyangshi"
+   },
+   {
+    "id": 206,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "weinanshi"
+    ],
+    "area": "",
+    "centerY": 34.49998,
+    "centerX": 109.51016,
+    "route": [],
+    "name": "渭南市",
+    "hasBusline": true,
+    "shortPinyin": "wn",
+    "pinyin": "weinanshi"
+   },
+   {
+    "id": 298,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yananshi"
+    ],
+    "area": "",
+    "centerY": 36.58529,
+    "centerX": 109.48978,
+    "route": [],
+    "name": "延安市",
+    "hasBusline": true,
+    "shortPinyin": "ya",
+    "pinyin": "yananshi"
+   },
+   {
+    "id": 299,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "hanzhongshi"
+    ],
+    "area": "",
+    "centerY": 33.06755,
+    "centerX": 107.02344,
+    "route": [],
+    "name": "汉中市",
+    "hasBusline": true,
+    "shortPinyin": "hz",
+    "pinyin": "hanzhongshi"
+   },
+   {
+    "id": 281,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yu2linshi"
+    ],
+    "area": "",
+    "centerY": 38.28516,
+    "centerX": 109.7345,
+    "route": [],
+    "name": "榆林市",
+    "hasBusline": true,
+    "shortPinyin": "yl",
+    "pinyin": "yu2linshi"
+   },
+   {
+    "id": 45,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "ankangshi"
+    ],
+    "area": "",
+    "centerY": 32.68486,
+    "centerX": 109.02933,
+    "route": [],
+    "name": "安康市",
+    "hasBusline": true,
+    "shortPinyin": "ak",
+    "pinyin": "ankangshi"
+   },
+   {
+    "id": 207,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shangluoshi"
+    ],
+    "area": "",
+    "centerY": 33.87052,
+    "centerX": 109.94039,
+    "route": [],
+    "name": "商洛市",
+    "hasBusline": true,
+    "shortPinyin": "sl",
+    "pinyin": "shangluoshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "shan3xi"
+  ],
+  "name": "陕西省",
+  "shortPinyin": "",
+  "pinyin": "shan3xisheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 310,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "chengdushi"
+    ],
+    "area": "",
+    "centerY": 30.5702,
+    "centerX": 104.06476,
+    "route": [],
+    "name": "成都市",
+    "hasBusline": true,
+    "shortPinyin": "cd",
+    "pinyin": "chengdushi"
+   },
+   {
+    "id": 315,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "mianyangshi"
+    ],
+    "area": "",
+    "centerY": 31.4672,
+    "centerX": 104.67929,
+    "route": [],
+    "name": "绵阳市",
+    "hasBusline": true,
+    "shortPinyin": "my",
+    "pinyin": "mianyangshi"
+   },
+   {
+    "id": 313,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zigongshi"
+    ],
+    "area": "",
+    "centerY": 29.33919,
+    "centerX": 104.77844,
+    "route": [],
+    "name": "自贡市",
+    "hasBusline": true,
+    "shortPinyin": "zg",
+    "pinyin": "zigongshi"
+   },
+   {
+    "id": 314,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "panzhihuashi"
+    ],
+    "area": "",
+    "centerY": 26.58242,
+    "centerX": 101.71874,
+    "route": [],
+    "name": "攀枝花市",
+    "hasBusline": true,
+    "shortPinyin": "pzh",
+    "pinyin": "panzhihuashi"
+   },
+   {
+    "id": 36,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "luzhoushi"
+    ],
+    "area": "",
+    "centerY": 28.87162,
+    "centerX": 105.44247,
+    "route": [],
+    "name": "泸州市",
+    "hasBusline": true,
+    "shortPinyin": "lz",
+    "pinyin": "luzhoushi"
+   },
+   {
+    "id": 311,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "deyangshi"
+    ],
+    "area": "",
+    "centerY": 31.12667,
+    "centerX": 104.39752,
+    "route": [],
+    "name": "德阳市",
+    "hasBusline": true,
+    "shortPinyin": "dy",
+    "pinyin": "deyangshi"
+   },
+   {
+    "id": 316,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "guangyuanshi"
+    ],
+    "area": "",
+    "centerY": 32.43548,
+    "centerX": 105.84344,
+    "route": [],
+    "name": "广元市",
+    "hasBusline": true,
+    "shortPinyin": "gy",
+    "pinyin": "guangyuanshi"
+   },
+   {
+    "id": 37,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "suiningshi"
+    ],
+    "area": "",
+    "centerY": 30.53286,
+    "centerX": 105.59272,
+    "route": [],
+    "name": "遂宁市",
+    "hasBusline": true,
+    "shortPinyin": "sn",
+    "pinyin": "suiningshi"
+   },
+   {
+    "id": 38,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "neijiangshi"
+    ],
+    "area": "",
+    "centerY": 29.5804,
+    "centerX": 105.05859,
+    "route": [],
+    "name": "内江市",
+    "hasBusline": true,
+    "shortPinyin": "nj",
+    "pinyin": "neijiangshi"
+   },
+   {
+    "id": 317,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "leshanshi"
+    ],
+    "area": "",
+    "centerY": 29.55214,
+    "centerX": 103.76529,
+    "route": [],
+    "name": "乐山市",
+    "hasBusline": true,
+    "shortPinyin": "ls",
+    "pinyin": "leshanshi"
+   },
+   {
+    "id": 39,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "nanchongshi"
+    ],
+    "area": "",
+    "centerY": 30.8379,
+    "centerX": 106.11062,
+    "route": [],
+    "name": "南充市",
+    "hasBusline": true,
+    "shortPinyin": "nc",
+    "pinyin": "nanchongshi"
+   },
+   {
+    "id": 318,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yibinshi"
+    ],
+    "area": "",
+    "centerY": 28.75259,
+    "centerX": 104.6428,
+    "route": [],
+    "name": "宜宾市",
+    "hasBusline": true,
+    "shortPinyin": "yb",
+    "pinyin": "yibinshi"
+   },
+   {
+    "id": 40,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "guanganshi"
+    ],
+    "area": "",
+    "centerY": 30.45589,
+    "centerX": 106.63309,
+    "route": [],
+    "name": "广安市",
+    "hasBusline": true,
+    "shortPinyin": "ga",
+    "pinyin": "guanganshi"
+   },
+   {
+    "id": 41,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "dazhoushi"
+    ],
+    "area": "",
+    "centerY": 31.2144,
+    "centerX": 107.47223,
+    "route": [],
+    "name": "达州市",
+    "hasBusline": true,
+    "shortPinyin": "dz",
+    "pinyin": "dazhoushi"
+   },
+   {
+    "id": 312,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "meishanshi"
+    ],
+    "area": "",
+    "centerY": 30.07564,
+    "centerX": 103.84851,
+    "route": [],
+    "name": "眉山市",
+    "hasBusline": true,
+    "shortPinyin": "ms",
+    "pinyin": "meishanshi"
+   },
+   {
+    "id": 319,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yaanshi"
+    ],
+    "area": "",
+    "centerY": 29.98047,
+    "centerX": 103.01318,
+    "route": [],
+    "name": "雅安市",
+    "hasBusline": true,
+    "shortPinyin": "ya",
+    "pinyin": "yaanshi"
+   },
+   {
+    "id": 320,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "bazhongshi"
+    ],
+    "area": "",
+    "centerY": 31.86764,
+    "centerX": 106.74761,
+    "route": [],
+    "name": "巴中市",
+    "hasBusline": true,
+    "shortPinyin": "bz",
+    "pinyin": "bazhongshi"
+   },
+   {
+    "id": 42,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "ziyangshi"
+    ],
+    "area": "",
+    "centerY": 30.1307,
+    "centerX": 104.62854,
+    "route": [],
+    "name": "资阳市",
+    "hasBusline": true,
+    "shortPinyin": "zy",
+    "pinyin": "ziyangshi"
+   },
+   {
+    "id": 284,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 31.8994,
+    "centerX": 102.22477,
+    "route": [],
+    "name": "阿坝藏族羌族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "abazangzuqiangzuzizhizhou"
+   },
+   {
+    "id": 285,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 30.04932,
+    "centerX": 101.96254,
+    "route": [],
+    "name": "甘孜藏族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "ganzizangzuzizhizhou"
+   },
+   {
+    "id": 321,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 27.88164,
+    "centerX": 102.26746,
+    "route": [],
+    "name": "凉山彝族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "liangshanyizuzizhizhou"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "sichuan1",
+   "sichuan2"
+  ],
+  "name": "四川省",
+  "shortPinyin": "",
+  "pinyin": "sichuansheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 328,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "wulumuqishi"
+    ],
+    "area": "",
+    "centerY": 43.82663,
+    "centerX": 87.61688,
+    "route": [],
+    "name": "乌鲁木齐市",
+    "hasBusline": true,
+    "shortPinyin": "wlmq",
+    "pinyin": "wulumuqishi"
+   },
+   {
+    "id": 329,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 45.57999,
+    "centerX": 84.88927,
+    "route": [],
+    "name": "克拉玛依市",
+    "hasBusline": false,
+    "shortPinyin": "klmy",
+    "pinyin": "kelamayishi"
+   },
+   {
+    "id": 330,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 42.9513,
+    "centerX": 89.18954,
+    "route": [],
+    "name": "吐鲁番地区",
+    "hasBusline": false,
+    "shortPinyin": "tlf",
+    "pinyin": "tulufandiqu"
+   },
+   {
+    "id": 81,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 42.81874,
+    "centerX": 93.51626,
+    "route": [],
+    "name": "哈密地区",
+    "hasBusline": false,
+    "shortPinyin": "hm",
+    "pinyin": "hamidiqu"
+   },
+   {
+    "id": 331,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 44.01117,
+    "centerX": 87.30822,
+    "route": [],
+    "name": "昌吉回族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "changjihuizuzizhizhou"
+   },
+   {
+    "id": 336,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 37.11431,
+    "centerX": 79.92247,
+    "route": [],
+    "name": "和田地区",
+    "hasBusline": false,
+    "shortPinyin": "ht",
+    "pinyin": "hetiandiqu"
+   },
+   {
+    "id": 333,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 41.16842,
+    "centerX": 80.26008,
+    "route": [],
+    "name": "阿克苏地区",
+    "hasBusline": false,
+    "shortPinyin": "aks",
+    "pinyin": "akesudiqu"
+   },
+   {
+    "id": 335,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 39.47042,
+    "centerX": 75.98976,
+    "route": [],
+    "name": "喀什地区",
+    "hasBusline": false,
+    "shortPinyin": "ks",
+    "pinyin": "kashidiqu"
+   },
+   {
+    "id": 334,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 39.7153,
+    "centerX": 76.16661,
+    "route": [],
+    "name": "克孜勒苏柯尔克孜自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "kezilesukeerkezizizhizhou"
+   },
+   {
+    "id": 291,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 41.76404,
+    "centerX": 86.14517,
+    "route": [],
+    "name": "巴音郭楞蒙古自治州",
+    "hasBusline": false,
+    "shortPinyin": "bygl",
+    "pinyin": "bayinguolengmengguzizhizhou"
+   },
+   {
+    "id": 332,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 44.90597,
+    "centerX": 82.06665,
+    "route": [],
+    "name": "博尔塔拉蒙古自治州",
+    "hasBusline": false,
+    "shortPinyin": "betl",
+    "pinyin": "boertalamengguzizhizhou"
+   },
+   {
+    "id": 337,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 43.91689,
+    "centerX": 81.32416,
+    "route": [],
+    "name": "伊犁哈萨克自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "yilihasakezizhizhou"
+   },
+   {
+    "id": 338,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 46.74532,
+    "centerX": 82.98046,
+    "route": [],
+    "name": "塔城地区",
+    "hasBusline": false,
+    "shortPinyin": "tc",
+    "pinyin": "tachengdiqu"
+   },
+   {
+    "id": 339,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 47.84564,
+    "centerX": 88.14023,
+    "route": [],
+    "name": "阿勒泰地区",
+    "hasBusline": false,
+    "shortPinyin": "alt",
+    "pinyin": "aletaidiqu"
+   },
+   {
+    "id": 340,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 44.30518,
+    "centerX": 86.08041,
+    "route": [],
+    "name": "石河子市",
+    "hasBusline": false,
+    "shortPinyin": "shz",
+    "pinyin": "shihezishi"
+   },
+   {
+    "id": 341,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 40.54795,
+    "centerX": 81.28061,
+    "route": [],
+    "name": "阿拉尔市",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "alaershi"
+   },
+   {
+    "id": 342,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 39.86491,
+    "centerX": 79.06894,
+    "route": [],
+    "name": "图木舒克市",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "tumushukeshi"
+   },
+   {
+    "id": 343,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 44.1665,
+    "centerX": 87.54324,
+    "route": [],
+    "name": "五家渠市",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "wujiaqushi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "xinjiang"
+  ],
+  "name": "新疆维吾尔自治区",
+  "shortPinyin": "",
+  "pinyin": "xinjiangweiwuerzizhiqu"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 344,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "lasashi"
+    ],
+    "area": "",
+    "centerY": 29.64415,
+    "centerX": 91.1145,
+    "route": [],
+    "name": "拉萨市",
+    "hasBusline": true,
+    "shortPinyin": "ls",
+    "pinyin": "lasashi"
+   },
+   {
+    "id": 286,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 31.14073,
+    "centerX": 97.17225,
+    "route": [],
+    "name": "昌都地区",
+    "hasBusline": false,
+    "shortPinyin": "cd",
+    "pinyin": "changdudiqu"
+   },
+   {
+    "id": 345,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 29.23705,
+    "centerX": 91.77313,
+    "route": [],
+    "name": "山南地区",
+    "hasBusline": false,
+    "shortPinyin": "sn",
+    "pinyin": "shannandiqu"
+   },
+   {
+    "id": 346,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "rikazediqu"
+    ],
+    "area": "",
+    "centerY": 29.26706,
+    "centerX": 88.88116,
+    "route": [],
+    "name": "日喀则地区",
+    "hasBusline": true,
+    "shortPinyin": "rkz",
+    "pinyin": "rikazediqu"
+   },
+   {
+    "id": 287,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 31.47614,
+    "centerX": 92.05136,
+    "route": [],
+    "name": "那曲地区",
+    "hasBusline": false,
+    "shortPinyin": "nq",
+    "pinyin": "naqudiqu"
+   },
+   {
+    "id": 327,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 30.40051,
+    "centerX": 81.1454,
+    "route": [],
+    "name": "阿里地区",
+    "hasBusline": false,
+    "shortPinyin": "al",
+    "pinyin": "alidiqu"
+   },
+   {
+    "id": 347,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 29.64895,
+    "centerX": 94.36155,
+    "route": [],
+    "name": "林芝地区",
+    "hasBusline": false,
+    "shortPinyin": "lz",
+    "pinyin": "linzhidiqu"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "xizang"
+  ],
+  "name": "西藏自治区",
+  "shortPinyin": "",
+  "pinyin": "xizangzizhiqu"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 322,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "kunmingshi"
+    ],
+    "area": "",
+    "centerY": 24.87966,
+    "centerX": 102.83322,
+    "route": [],
+    "name": "昆明市",
+    "hasBusline": true,
+    "shortPinyin": "km",
+    "pinyin": "kunmingshi"
+   },
+   {
+    "id": 126,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "qujingshi"
+    ],
+    "area": "",
+    "centerY": 25.49001,
+    "centerX": 103.79635,
+    "route": [],
+    "name": "曲靖市",
+    "hasBusline": true,
+    "shortPinyin": "qj",
+    "pinyin": "qujingshi"
+   },
+   {
+    "id": 348,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yuxishi"
+    ],
+    "area": "",
+    "centerY": 24.35188,
+    "centerX": 102.54663,
+    "route": [],
+    "name": "玉溪市",
+    "hasBusline": true,
+    "shortPinyin": "yx",
+    "pinyin": "yuxishi"
+   },
+   {
+    "id": 349,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "baoshanshi"
+    ],
+    "area": "",
+    "centerY": 25.1122,
+    "centerX": 99.16157,
+    "route": [],
+    "name": "保山市",
+    "hasBusline": true,
+    "shortPinyin": "bs",
+    "pinyin": "baoshanshi"
+   },
+   {
+    "id": 133,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhaotongshi"
+    ],
+    "area": "",
+    "centerY": 27.33818,
+    "centerX": 103.7168,
+    "route": [],
+    "name": "昭通市",
+    "hasBusline": true,
+    "shortPinyin": "zt",
+    "pinyin": "zhaotongshi"
+   },
+   {
+    "id": 323,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "lijiangshi"
+    ],
+    "area": "",
+    "centerY": 26.85476,
+    "centerX": 100.22638,
+    "route": [],
+    "name": "丽江市",
+    "hasBusline": true,
+    "shortPinyin": "lj",
+    "pinyin": "lijiangshi"
+   },
+   {
+    "id": 350,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "puershi"
+    ],
+    "area": "",
+    "centerY": 22.82521,
+    "centerX": 100.96624,
+    "route": [],
+    "name": "普洱市",
+    "hasBusline": true,
+    "shortPinyin": "pe",
+    "pinyin": "puershi"
+   },
+   {
+    "id": 351,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "lincangshi"
+    ],
+    "area": "",
+    "centerY": 23.88426,
+    "centerX": 100.08884,
+    "route": [],
+    "name": "临沧市",
+    "hasBusline": true,
+    "shortPinyin": "lc",
+    "pinyin": "lincangshi"
+   },
+   {
+    "id": 127,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 23.39849,
+    "centerX": 104.21504,
+    "route": [],
+    "name": "文山壮族苗族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "wenshanzhuangzumiaozuzizhizhou"
+   },
+   {
+    "id": 352,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 23.36422,
+    "centerX": 103.3756,
+    "route": [],
+    "name": "红河哈尼族彝族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "honghehanizuyizuzizhizhou"
+   },
+   {
+    "id": 353,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 22.00749,
+    "centerX": 100.79739,
+    "route": [],
+    "name": "西双版纳傣族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "xishuangbannadaizuzizhizhou"
+   },
+   {
+    "id": 324,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 25.04495,
+    "centerX": 101.52767,
+    "route": [],
+    "name": "楚雄彝族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "chuxiongyizuzizhizhou"
+   },
+   {
+    "id": 354,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "dalibaizuzizhizhou"
+    ],
+    "area": "",
+    "centerY": 25.60648,
+    "centerX": 100.26764,
+    "route": [],
+    "name": "大理白族自治州",
+    "hasBusline": true,
+    "shortPinyin": "nul",
+    "pinyin": "dalibaizuzizhizhou"
+   },
+   {
+    "id": 355,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 24.43232,
+    "centerX": 98.58486,
+    "route": [],
+    "name": "德宏傣族景颇族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "dehongdaizujingpozuzizhizhou"
+   },
+   {
+    "id": 356,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 25.81763,
+    "centerX": 98.8567,
+    "route": [],
+    "name": "怒江傈僳族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "nujianglisuzuzizhizhou"
+   },
+   {
+    "id": 325,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 27.81908,
+    "centerX": 99.70305,
+    "route": [],
+    "name": "迪庆藏族自治州",
+    "hasBusline": false,
+    "shortPinyin": "nul",
+    "pinyin": "diqingzangzuzizhizhou"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "yunnan"
+  ],
+  "name": "云南省",
+  "shortPinyin": "",
+  "pinyin": "yunnansheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 357,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "hangzhoushi"
+    ],
+    "area": "",
+    "centerY": 30.27415,
+    "centerX": 120.15515,
+    "route": [],
+    "name": "杭州市",
+    "hasBusline": true,
+    "shortPinyin": "hz",
+    "pinyin": "hangzhoushi"
+   },
+   {
+    "id": 359,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "ningboshi"
+    ],
+    "area": "",
+    "centerY": 29.87402,
+    "centerX": 121.54974,
+    "route": [],
+    "name": "宁波市",
+    "hasBusline": true,
+    "shortPinyin": "nb",
+    "pinyin": "ningboshi"
+   },
+   {
+    "id": 360,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "wenzhoushi"
+    ],
+    "area": "",
+    "centerY": 27.99491,
+    "centerX": 120.6994,
+    "route": [],
+    "name": "温州市",
+    "hasBusline": true,
+    "shortPinyin": "wz",
+    "pinyin": "wenzhoushi"
+   },
+   {
+    "id": 238,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jiaxingshi"
+    ],
+    "area": "",
+    "centerY": 30.6901,
+    "centerX": 120.79688,
+    "route": [],
+    "name": "嘉兴市",
+    "hasBusline": true,
+    "shortPinyin": "jx",
+    "pinyin": "jiaxingshi"
+   },
+   {
+    "id": 239,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "huzhoushi"
+    ],
+    "area": "",
+    "centerY": 30.89427,
+    "centerX": 120.08676,
+    "route": [],
+    "name": "湖州市",
+    "hasBusline": true,
+    "shortPinyin": "hz",
+    "pinyin": "huzhoushi"
+   },
+   {
+    "id": 358,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shaoxingshi"
+    ],
+    "area": "",
+    "centerY": 30.03019,
+    "centerX": 120.57977,
+    "route": [],
+    "name": "绍兴市",
+    "hasBusline": true,
+    "shortPinyin": "sx",
+    "pinyin": "shaoxingshi"
+   },
+   {
+    "id": 361,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jinhuashi"
+    ],
+    "area": "",
+    "centerY": 29.07813,
+    "centerX": 119.64746,
+    "route": [],
+    "name": "金华市",
+    "hasBusline": true,
+    "shortPinyin": "jh",
+    "pinyin": "jinhuashi"
+   },
+   {
+    "id": 362,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "quzhoushi"
+    ],
+    "area": "",
+    "centerY": 28.93591,
+    "centerX": 118.87418,
+    "route": [],
+    "name": "衢州市",
+    "hasBusline": true,
+    "shortPinyin": "qz",
+    "pinyin": "quzhoushi"
+   },
+   {
+    "id": 307,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "zhoushanshi"
+    ],
+    "area": "",
+    "centerY": 29.98535,
+    "centerX": 122.20767,
+    "route": [],
+    "name": "舟山市",
+    "hasBusline": true,
+    "shortPinyin": "zs",
+    "pinyin": "zhoushanshi"
+   },
+   {
+    "id": 363,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "tai2zhoushi"
+    ],
+    "area": "",
+    "centerY": 28.65615,
+    "centerX": 121.42075,
+    "route": [],
+    "name": "台州市",
+    "hasBusline": true,
+    "shortPinyin": "tz",
+    "pinyin": "tai2zhoushi"
+   },
+   {
+    "id": 364,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "lishuishi"
+    ],
+    "area": "",
+    "centerY": 28.4672,
+    "centerX": 119.92293,
+    "route": [],
+    "name": "丽水市",
+    "hasBusline": true,
+    "shortPinyin": "ls",
+    "pinyin": "lishuishi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "zhejiang1",
+   "zhejiang2"
+  ],
+  "name": "浙江省",
+  "shortPinyin": "",
+  "pinyin": "zhejiangsheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 174,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "haerbinshi"
+    ],
+    "area": "",
+    "centerY": 45.80216,
+    "centerX": 126.5358,
+    "route": [],
+    "name": "哈尔滨市",
+    "hasBusline": true,
+    "shortPinyin": "heb",
+    "pinyin": "haerbinshi"
+   },
+   {
+    "id": 175,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "qiqihaershi"
+    ],
+    "area": "",
+    "centerY": 47.35431,
+    "centerX": 123.91797,
+    "route": [],
+    "name": "齐齐哈尔市",
+    "hasBusline": true,
+    "shortPinyin": "qqhe",
+    "pinyin": "qiqihaershi"
+   },
+   {
+    "id": 176,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jixishi"
+    ],
+    "area": "",
+    "centerY": 45.29529,
+    "centerX": 130.96955,
+    "route": [],
+    "name": "鸡西市",
+    "hasBusline": true,
+    "shortPinyin": "jx",
+    "pinyin": "jixishi"
+   },
+   {
+    "id": 177,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "hegangshi"
+    ],
+    "area": "",
+    "centerY": 47.34992,
+    "centerX": 130.298,
+    "route": [],
+    "name": "鹤岗市",
+    "hasBusline": true,
+    "shortPinyin": "hg",
+    "pinyin": "hegangshi"
+   },
+   {
+    "id": 178,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "shuangyashanshi"
+    ],
+    "area": "",
+    "centerY": 46.64711,
+    "centerX": 131.15913,
+    "route": [],
+    "name": "双鸭山市",
+    "hasBusline": true,
+    "shortPinyin": "sys",
+    "pinyin": "shuangyashanshi"
+   },
+   {
+    "id": 179,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "daqingshi"
+    ],
+    "area": "",
+    "centerY": 46.58974,
+    "centerX": 125.10446,
+    "route": [],
+    "name": "大庆市",
+    "hasBusline": true,
+    "shortPinyin": "dq",
+    "pinyin": "daqingshi"
+   },
+   {
+    "id": 181,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "jiamusishi"
+    ],
+    "area": "",
+    "centerY": 46.7996,
+    "centerX": 130.32047,
+    "route": [],
+    "name": "佳木斯市",
+    "hasBusline": true,
+    "shortPinyin": "jms",
+    "pinyin": "jiamusishi"
+   },
+   {
+    "id": 182,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "qitaiheshi"
+    ],
+    "area": "",
+    "centerY": 45.77061,
+    "centerX": 131.00299,
+    "route": [],
+    "name": "七台河市",
+    "hasBusline": true,
+    "shortPinyin": "qth",
+    "pinyin": "qitaiheshi"
+   },
+   {
+    "id": 183,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "mudanjiangshi"
+    ],
+    "area": "",
+    "centerY": 44.55241,
+    "centerX": 129.63245,
+    "route": [],
+    "name": "牡丹江市",
+    "hasBusline": true,
+    "shortPinyin": "mdj",
+    "pinyin": "mudanjiangshi"
+   },
+   {
+    "id": 184,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "heiheshi"
+    ],
+    "area": "",
+    "centerY": 50.24522,
+    "centerX": 127.5285,
+    "route": [],
+    "name": "黑河市",
+    "hasBusline": true,
+    "shortPinyin": "hh",
+    "pinyin": "heiheshi"
+   },
+   {
+    "id": 185,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "suihuashi"
+    ],
+    "area": "",
+    "centerY": 46.65385,
+    "centerX": 126.96851,
+    "route": [],
+    "name": "绥化市",
+    "hasBusline": true,
+    "shortPinyin": "sh",
+    "pinyin": "suihuashi"
+   },
+   {
+    "id": 186,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [],
+    "area": "",
+    "centerY": 51.92398,
+    "centerX": 124.59216,
+    "route": [],
+    "name": "大兴安岭地区",
+    "hasBusline": false,
+    "shortPinyin": "dxal",
+    "pinyin": "daxinganlingdiqu"
+   },
+   {
+    "id": 180,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "yi2chunshi"
+    ],
+    "area": "",
+    "centerY": 47.72787,
+    "centerX": 128.84226,
+    "route": [],
+    "name": "伊春市",
+    "hasBusline": true,
+    "shortPinyin": "yc",
+    "pinyin": "yi2chunshi"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "heilongjiang"
+  ],
+  "name": "黑龙江省",
+  "shortPinyin": "",
+  "pinyin": "heilongjiangsheng"
+ },
+ {
+  "scale": 0,
+  "cityList": [
+   {
+    "id": 276,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "huhehaoteshi"
+    ],
+    "area": "",
+    "centerY": 40.84149,
+    "centerX": 111.75199,
+    "route": [],
+    "name": "呼和浩特市",
+    "hasBusline": true,
+    "shortPinyin": "hhht",
+    "pinyin": "huhehaoteshi"
+   },
+   {
+    "id": 277,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "baotoushi"
+    ],
+    "area": "",
+    "centerY": 40.65739,
+    "centerX": 109.84037,
+    "route": [],
+    "name": "包头市",
+    "hasBusline": true,
+    "shortPinyin": "bt",
+    "pinyin": "baotoushi"
+   },
+   {
+    "id": 278,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "wuhaishi"
+    ],
+    "area": "",
+    "centerY": 39.65573,
+    "centerX": 106.79419,
+    "route": [],
+    "name": "乌海市",
+    "hasBusline": true,
+    "shortPinyin": "wh",
+    "pinyin": "wuhaishi"
+   },
+   {
+    "id": 162,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "chifengshi"
+    ],
+    "area": "",
+    "centerY": 42.2578,
+    "centerX": 118.88717,
+    "route": [],
+    "name": "赤峰市",
+    "hasBusline": true,
+    "shortPinyin": "cf",
+    "pinyin": "chifengshi"
+   },
+   {
+    "id": 252,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "tongliaoshi"
+    ],
+    "area": "",
+    "centerY": 43.65367,
+    "centerX": 122.24579,
+    "route": [],
+    "name": "通辽市",
+    "hasBusline": true,
+    "shortPinyin": "tl",
+    "pinyin": "tongliaoshi"
+   },
+   {
+    "id": 279,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "eerduosishi"
+    ],
+    "area": "",
+    "centerY": 39.60836,
+    "centerX": 109.78125,
+    "route": [],
+    "name": "鄂尔多斯市",
+    "hasBusline": true,
+    "shortPinyin": "eeds",
+    "pinyin": "eerduosishi"
+   },
+   {
+    "id": 172,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "hulunbeiershi"
+    ],
+    "area": "",
+    "centerY": 49.21224,
+    "centerX": 119.76608,
+    "route": [],
+    "name": "呼伦贝尔市",
+    "hasBusline": true,
+    "shortPinyin": "hlbe",
+    "pinyin": "hulunbeiershi"
+   },
+   {
+    "id": 280,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "bayannaoershi"
+    ],
+    "area": "",
+    "centerY": 40.74316,
+    "centerX": 107.38773,
+    "route": [],
+    "name": "巴彦淖尔市",
+    "hasBusline": true,
+    "shortPinyin": "byne",
+    "pinyin": "bayannaoershi"
+   },
+   {
+    "id": 163,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "wulanchabushi"
+    ],
+    "area": "",
+    "centerY": 40.99414,
+    "centerX": 113.13376,
+    "route": [],
+    "name": "乌兰察布市",
+    "hasBusline": true,
+    "shortPinyin": "wlcb",
+    "pinyin": "wulanchabushi"
+   },
+   {
+    "id": 173,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xinganmeng"
+    ],
+    "area": "",
+    "centerY": 46.08208,
+    "centerX": 122.03818,
+    "route": [],
+    "name": "兴安盟",
+    "hasBusline": true,
+    "shortPinyin": "nul",
+    "pinyin": "xinganmeng"
+   },
+   {
+    "id": 164,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "xilinguolemeng"
+    ],
+    "area": "",
+    "centerY": 43.9332,
+    "centerX": 116.04775,
+    "route": [],
+    "name": "锡林郭勒盟",
+    "hasBusline": true,
+    "shortPinyin": "xlgl",
+    "pinyin": "xilinguolemeng"
+   },
+   {
+    "id": 58,
+    "roadid": 0,
+    "scale": 11,
+    "bus": [
+     "alashanmeng"
+    ],
+    "area": "",
+    "centerY": 38.85153,
+    "centerX": 105.72898,
+    "route": [],
+    "name": "阿拉善盟",
+    "hasBusline": true,
+    "shortPinyin": "als",
+    "pinyin": "alashanmeng"
+   }
+  ],
+  "centerY": 0,
+  "centerX": 0,
+  "route": [
+   "neimenggu"
+  ],
+  "name": "内蒙古自治区",
+  "shortPinyin": "",
+  "pinyin": "neimengguzizhiqu"
+ },
+ {
+  "id": 326,
+  "roadid": 0,
+  "scale": 11,
+  "bus": [
+   "xianggangtebiexingzhengqu"
+  ],
+  "area": "",
+  "centerY": 22.34766,
+  "centerX": 114.20898,
+  "route": [
+   "xianggang"
+  ],
+  "name": "香港特别行政区",
+  "hasBusline": true,
+  "shortPinyin": "nul",
+  "pinyin": "xianggangtebiexingzhengqu"
+ },
+ {
+  "id": 24,
+  "roadid": 0,
+  "scale": 11,
+  "bus": [
+   "aomentebiexingzhengqu"
+  ],
+  "area": "",
+  "centerY": 22.15365,
+  "centerX": 113.56641,
+  "route": [
+   "aomen"
+  ],
+  "name": "澳门特别行政区",
+  "hasBusline": true,
+  "shortPinyin": "nul",
+  "pinyin": "aomentebiexingzhengqu"
+ },
+ {
+	"id": 998,
+	"roadid": 0,
+	"scale": 9,
+	"area": "",
+	"centerY": 25.044158,
+	"centerX": 121.559736,
+	"name": "台湾省",
+	"hasBusline": false,
+	"shortPinyin": "tw",
+	"pinyin": "taiwan"
+}
+]
