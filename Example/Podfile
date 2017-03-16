@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TencentMapSdk_Example' do
+  pod 'TencentMapSdk', :path => '../'
+
+  target 'TencentMapSdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

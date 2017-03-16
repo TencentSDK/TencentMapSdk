@@ -1,0 +1,22 @@
+{
+  "name": "TencentMapSdk",
+  "version": "0.1.0",
+  "summary": "A short description of TencentMapSdk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CleverZhang/TencentMapSdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CleverZhang": "cleverzhang@tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/CleverZhang/TencentMapSdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TencentMapSdk/Classes/**/*"
+}
