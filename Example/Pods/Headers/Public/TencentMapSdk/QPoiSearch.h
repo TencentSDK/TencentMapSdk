@@ -1,0 +1,1 @@
+../../../../../TencentMapSdk/Classes/QMap/include/QPoiSearch.h

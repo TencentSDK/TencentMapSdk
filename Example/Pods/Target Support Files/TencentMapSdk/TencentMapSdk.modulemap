@@ -1,6 +1,0 @@
-framework module TencentMapSdk {
-  umbrella header "TencentMapSdk-umbrella.h"
-
-  export *
-  module * { export * }
-}

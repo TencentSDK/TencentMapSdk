@@ -5,14 +5,24 @@
 //  Created by CleverZhang on 03/16/2017.
 //  Copyright (c) 2017 CleverZhang. All rights reserved.
 //
-
+#import <TencentMapSdk/QAppKeyCheck.h>
 #import "QMapAppDelegate.h"
+@interface QMapAppDelegate() <QAppKeyCheckDelegate>
+@property(nonatomic, strong) QAppKeyCheck       *appKeyCheck;
+@end
 
 @implementation QMapAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.appKeyCheck = [[QAppKeyCheck alloc] init];
+    
+    NSLog(@"%@", [QAppKeyCheck vendorID]);
+    
+    //[_appKeyCheck start:@"2f40cc22ed4d4c2f96bd3d19be16ed52" withDelegate:self];
+    //    [_appKeyCheck start:@"EVLBZ-BVTRJ-454F6-F2XMU-QDDN5-LZFON" withDelegate:self];
+    [_appKeyCheck start:@"OHXBZ-TM6WF-OGJJX-JA3JW-FQ7K5-EWBY6" withDelegate:self];
     return YES;
 }
 
@@ -43,4 +53,16 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark -  QAppKeyCheckDelegate
+- (void)notifyAppKeyCheckResult:(QErrorCode)errCode
+{
+    if(QErrorNone == errCode)
+        NSLog(@"Appkey check passed.");
+    else if(QNetError == errCode)
+        NSLog(@"QNetError");
+    else if(errCode == QAppKeyCheckFail)
+        NSLog(@"QAppKeyCheckFail");
+    else
+        return;
+}
 @end

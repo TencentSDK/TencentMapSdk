@@ -1,22 +1,46 @@
 {
   "name": "TencentMapSdk",
-  "version": "0.1.0",
-  "summary": "A short description of TencentMapSdk.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/CleverZhang/TencentMapSdk",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "version": "2.1.1.04.07",
+  "summary": "This is TencentMapSdk.",
+  "description": "The Map Software develop kit.",
+  "homepage": "https://github.com/TencentSDK/TencentMapSdk",
+  "license": "BSD",
   "authors": {
-    "CleverZhang": "cleverzhang@tencent.com"
+    "eximpression": "ex_impression@hotmail.com"
   },
   "source": {
-    "git": "https://github.com/CleverZhang/TencentMapSdk.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/TencentSDK/TencentMapSdk.git",
+    "tag": "2.1.1.04.07"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TencentMapSdk/Classes/**/*"
+  "requires_arc": true,
+  "source_files": "TencentMapSdk/Classes/**/*",
+  "resources": "TencentMapSdk/Bundles/SOSOMAPRES.bundle",
+  "vendored_libraries": [
+    "TencentMapSdk/Library/libQMapSdk.a"
+  ],
+  "public_header_files": "TencentMapSdk/Classes/QMap/include/*.h",
+  "frameworks": [
+    "SystemConfiguration",
+    "UIKit",
+    "CoreText",
+    "OpenGLES",
+    "QuartzCore",
+    "CoreGraphics",
+    "CoreLocation",
+    "CoreTelephony",
+    "Accelerate",
+    "ImageIO"
+  ],
+  "ios": {
+    "vendored_frameworks": "TencentMapSdk/Framework/TMapBeaconAPI_SDKBase.framework"
+  },
+  "libraries": [
+    "z",
+    "stdc++",
+    "stdc++.6.0.9",
+    "sqlite3"
+  ]
 }

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C9BFE3BE51B894FAE56888ECE7CFDE05A7111D35",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C9BFE3BE51B894FAE56888ECE7CFDE05A7111D35" : 9223372036854775807,
+    "BE4948FF288C5CF376AA37922142180FD2316649" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "149AF5FE-78E1-49C0-AA3D-11A620DE4830",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C9BFE3BE51B894FAE56888ECE7CFDE05A7111D35" : "TencentMapSdk\/",
+    "BE4948FF288C5CF376AA37922142180FD2316649" : "SDK2.0_git\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TencentMapSdk",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/TencentMapSdk.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/git.code.oa.com\/map-ios\/TencentMapSdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BE4948FF288C5CF376AA37922142180FD2316649"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:TencentSDK\/TencentMapSdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C9BFE3BE51B894FAE56888ECE7CFDE05A7111D35"
+    }
+  ]
+}

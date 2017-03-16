@@ -28,7 +28,7 @@ s.author           = { "eximpression" => "ex_impression@hotmail.com" }
   s.vendored_libraries = [
     'TencentMapSdk/Library/libQMapSdk.a'
   ]
-
+  s.public_header_files = 'TencentMapSdk/Classes/QMap/include/*.h'
   s.frameworks = 'SystemConfiguration','UIKit','CoreText','OpenGLES','QuartzCore','CoreGraphics','CoreLocation','CoreTelephony', 'Accelerate','ImageIO'
   s.ios.vendored_frameworks = 'TencentMapSdk/Framework/TMapBeaconAPI_SDKBase.framework'
   s.library = 'z','stdc++','stdc++.6.0.9','sqlite3'
