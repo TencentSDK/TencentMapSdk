@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Unj-eY-UJh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Master-->
+        <scene sceneID="RTD-eU-ZlC">
+            <objects>
+                <navigationController title="Master" id="Unj-eY-UJh" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="BP6-nT-QnN">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hcq-Tv-CQU" kind="relationship" relationship="rootViewController" id="HO7-HO-8zM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3hH-78-1Hs" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-38" y="-630"/>
+        </scene>
+        <!--Master-->
+        <scene sceneID="Oe7-6i-GLk">
+            <objects>
+                <tableViewController title="Master" clearsSelectionOnViewWillAppear="NO" id="hcq-Tv-CQU" customClass="MasterViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="qaT-L1-g78">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="VTK-ov-48m" style="IBUITableViewCellStyleDefault" id="JfD-fN-6kQ">
+                                <rect key="frame" x="0.0" y="22" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JfD-fN-6kQ" id="itj-5G-TbM">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VTK-ov-48m">
+                                            <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="hcq-Tv-CQU" id="ZMp-DT-oHp"/>
+                            <outlet property="delegate" destination="hcq-Tv-CQU" id="eel-yf-8dy"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Master" id="rWR-2Z-pcm"/>
+                    <connections>
+                        <segue destination="hAS-jv-5hl" kind="show" identifier="ShowBaseDemoIdentifier" id="6im-8r-crD">
+                            <nil key="action"/>
+                        </segue>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fuO-9a-2XB" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="709" y="-630"/>
+        </scene>
+        <!--Map Base Demo View Controller-->
+        <scene sceneID="e5p-yV-Jcy">
+            <objects>
+                <viewController id="hAS-jv-5hl" customClass="QMapBaseDemoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="soT-ed-U6h"/>
+                        <viewControllerLayoutGuide type="bottom" id="CoS-Fk-qUN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y2u-xh-vK1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J42-YV-eZf" customClass="QMapView">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="cPr-EV-quW">
+                                <rect key="frame" x="0.0" y="64" width="375" height="68"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jiY-O9-Kpm">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mG5-Zx-QVq">
+                                                <rect key="frame" x="0.0" y="0.0" width="99" height="30"/>
+                                                <state key="normal" title="指南针开关"/>
+                                                <connections>
+                                                    <action selector="toggleCompassAction:" destination="hAS-jv-5hl" eventType="touchUpInside" id="g19-ls-zfB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFg-MI-Lwx">
+                                                <rect key="frame" x="109" y="0.0" width="74" height="30"/>
+                                                <state key="normal" title="3D开关"/>
+                                                <connections>
+                                                    <action selector="toggle3DAction:" destination="hAS-jv-5hl" eventType="touchUpInside" id="97a-vp-Udh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GrD-CU-Yc4">
+                                                <rect key="frame" x="193" y="0.0" width="86" height="30"/>
+                                                <state key="normal" title="追随模式"/>
+                                                <connections>
+                                                    <action selector="toggleTrafficAction:" destination="hAS-jv-5hl" eventType="touchUpInside" id="ipc-o8-Pes"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePv-JX-1uU">
+                                                <rect key="frame" x="289" y="0.0" width="86" height="30"/>
+                                                <state key="normal" title="定位开关"/>
+                                                <connections>
+                                                    <action selector="toggleUserLocation:" destination="hAS-jv-5hl" eventType="touchUpInside" id="cb6-j1-yfd"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="GrD-CU-Yc4" firstAttribute="width" secondItem="ePv-JX-1uU" secondAttribute="width" id="1BW-pE-qyC"/>
+                                            <constraint firstItem="mG5-Zx-QVq" firstAttribute="width" secondItem="GrD-CU-Yc4" secondAttribute="width" constant="12" id="9oh-HW-NPe"/>
+                                            <constraint firstItem="DFg-MI-Lwx" firstAttribute="width" secondItem="GrD-CU-Yc4" secondAttribute="width" constant="-12" id="UU0-Ia-vQu"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9Y1-iM-HvE">
+                                        <rect key="frame" x="0.0" y="38" width="375" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsZ-63-fSn">
+                                                <rect key="frame" x="0.0" y="0.0" width="124" height="30"/>
+                                                <state key="normal" title="切换语言"/>
+                                                <connections>
+                                                    <action selector="changeLanguageAction:" destination="hAS-jv-5hl" eventType="touchUpInside" id="DFp-F5-ede"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEA-7i-EhE">
+                                                <rect key="frame" x="134" y="0.0" width="108" height="30"/>
+                                                <state key="normal" title="比例尺位置调整"/>
+                                                <connections>
+                                                    <action selector="adjustScaleViewPosition:" destination="hAS-jv-5hl" eventType="touchUpInside" id="ay8-ds-2mE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xy-dy-cuU">
+                                                <rect key="frame" x="252" y="0.0" width="123" height="30"/>
+                                                <state key="normal" title="卫星图"/>
+                                                <connections>
+                                                    <action selector="changeMapStyleAction:" destination="hAS-jv-5hl" eventType="touchUpInside" id="IeD-xj-5ez"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="bsZ-63-fSn" firstAttribute="width" secondItem="3xy-dy-cuU" secondAttribute="width" id="vJD-u8-e4h"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="jiY-O9-Kpm" firstAttribute="leading" secondItem="cPr-EV-quW" secondAttribute="leading" id="WjC-We-ahD"/>
+                                    <constraint firstAttribute="trailing" secondItem="jiY-O9-Kpm" secondAttribute="trailing" id="rIh-pk-abK"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="J42-YV-eZf" firstAttribute="leading" secondItem="Y2u-xh-vK1" secondAttribute="leading" id="B6c-gE-1WP"/>
+                            <constraint firstItem="cPr-EV-quW" firstAttribute="leading" secondItem="Y2u-xh-vK1" secondAttribute="leading" id="BeT-aA-mvm"/>
+                            <constraint firstItem="J42-YV-eZf" firstAttribute="top" secondItem="soT-ed-U6h" secondAttribute="bottom" id="NHE-ld-hFB"/>
+                            <constraint firstItem="CoS-Fk-qUN" firstAttribute="top" secondItem="J42-YV-eZf" secondAttribute="bottom" id="PeX-gw-FXn"/>
+                            <constraint firstAttribute="trailing" secondItem="J42-YV-eZf" secondAttribute="trailing" id="VAV-de-Lhx"/>
+                            <constraint firstAttribute="trailing" secondItem="cPr-EV-quW" secondAttribute="trailing" id="icl-mp-H2I"/>
+                            <constraint firstItem="cPr-EV-quW" firstAttribute="top" secondItem="J42-YV-eZf" secondAttribute="top" id="z1C-a6-MO9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="J42-YV-eZf" id="sEe-KM-CpD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vNE-zE-bV2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1576.8" y="-639.13043478260875"/>
+        </scene>
+    </scenes>
+</document>

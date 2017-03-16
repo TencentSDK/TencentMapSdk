@@ -1,0 +1,1 @@
+../../../../../../TencentMapSdk/Framework/TMapBeaconAPI_SDKBase.framework/Headers/BeaconAnaPublicDefines.h
