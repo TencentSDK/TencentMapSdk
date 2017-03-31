@@ -9,7 +9,7 @@
  */
 
 #import "QOverlayPathView.h"
-#import "Qpolygon.h"
+#import "QPolygon.h"
 
 /**
  *QPolygonView:定义一个多边形View
