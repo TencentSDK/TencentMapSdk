@@ -277,6 +277,9 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CleverZhang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 66WHF7D79J;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -562,6 +565,7 @@
 			baseConfigurationReference = 63BA4AA041A785F55864B89B /* Pods-TencentMapSdk_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 66WHF7D79J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TencentMapSdk/TencentMapSdk-Prefix.pch";
 				INFOPLIST_FILE = "TencentMapSdk/TencentMapSdk-Info.plist";
@@ -579,6 +583,7 @@
 			baseConfigurationReference = 09561AB0DEACF8A6556894FB /* Pods-TencentMapSdk_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 66WHF7D79J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TencentMapSdk/TencentMapSdk-Prefix.pch";
 				INFOPLIST_FILE = "TencentMapSdk/TencentMapSdk-Info.plist";

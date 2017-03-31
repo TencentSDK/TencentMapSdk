@@ -1,6 +1,6 @@
 {
   "name": "TencentMapSdk",
-  "version": "2.1.1.04.07",
+  "version": "2.1.1.04.09",
   "summary": "This is TencentMapSdk.",
   "description": "The Map Software develop kit.",
   "homepage": "https://github.com/TencentSDK/TencentMapSdk",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/TencentSDK/TencentMapSdk.git",
-    "tag": "2.1.1.04.07"
+    "tag": "2.1.1.04.09"
   },
   "platforms": {
     "ios": "8.0"
