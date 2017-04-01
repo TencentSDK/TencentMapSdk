@@ -23,6 +23,7 @@
 		6F4445A3FC8A86D148AF295B /* libPods-TencentMapSdk_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2AA56318A6CD0F5FD423C /* libPods-TencentMapSdk_Example.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D4D8EF341E8F81A7008D6704 /* 第三极.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D4D8EF331E8F81A7008D6704 /* 第三极.gpx */; };
 		D4FB70781E7A517A0081F79B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB70771E7A517A0081F79B /* MasterViewController.m */; };
 		D4FB707C1E7A52560081F79B /* QMapBaseDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB707B1E7A52560081F79B /* QMapBaseDemoViewController.m */; };
 /* End PBXBuildFile section */
@@ -78,6 +79,7 @@
 		94422DB4CD6B39325A727AE7 /* libPods-TencentMapSdk_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TencentMapSdk_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A245EEFAC21FA560991347 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CDF3305938CE474DA810F7B7 /* Pods-TencentMapSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentMapSdk_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TencentMapSdk_Tests/Pods-TencentMapSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4D8EF331E8F81A7008D6704 /* 第三极.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "第三极.gpx"; sourceTree = "<group>"; };
 		D4FB70761E7A517A0081F79B /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		D4FB70771E7A517A0081F79B /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		D4FB707A1E7A52560081F79B /* QMapBaseDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMapBaseDemoViewController.h; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			children = (
 				6003F59C195388D20070C39A /* QMapAppDelegate.h */,
 				6003F59D195388D20070C39A /* QMapAppDelegate.m */,
+				D4D8EF331E8F81A7008D6704 /* 第三极.gpx */,
 				D4FB70761E7A517A0081F79B /* MasterViewController.h */,
 				D4FB70771E7A517A0081F79B /* MasterViewController.m */,
 				D4FB70791E7A52560081F79B /* BaseDemo */,
@@ -313,6 +316,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				D4D8EF341E8F81A7008D6704 /* 第三极.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +570,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 66WHF7D79J;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TencentMapSdk/TencentMapSdk-Prefix.pch";
 				INFOPLIST_FILE = "TencentMapSdk/TencentMapSdk-Info.plist";
@@ -584,6 +589,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 66WHF7D79J;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TencentMapSdk/TencentMapSdk-Prefix.pch";
 				INFOPLIST_FILE = "TencentMapSdk/TencentMapSdk-Info.plist";
