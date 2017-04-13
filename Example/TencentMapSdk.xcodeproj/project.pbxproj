@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D4D8EF341E8F81A7008D6704 /* 第三极.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D4D8EF331E8F81A7008D6704 /* 第三极.gpx */; };
+		D4EBC6F51E9F0D1D0006464D /* QMapNavigationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EBC6F41E9F0D1D0006464D /* QMapNavigationDemoViewController.m */; };
 		D4FB70781E7A517A0081F79B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB70771E7A517A0081F79B /* MasterViewController.m */; };
 		D4FB707C1E7A52560081F79B /* QMapBaseDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB707B1E7A52560081F79B /* QMapBaseDemoViewController.m */; };
 /* End PBXBuildFile section */
@@ -80,6 +81,8 @@
 		97A245EEFAC21FA560991347 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CDF3305938CE474DA810F7B7 /* Pods-TencentMapSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentMapSdk_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TencentMapSdk_Tests/Pods-TencentMapSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4D8EF331E8F81A7008D6704 /* 第三极.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "第三极.gpx"; sourceTree = "<group>"; };
+		D4EBC6F31E9F0D1D0006464D /* QMapNavigationDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMapNavigationDemoViewController.h; sourceTree = "<group>"; };
+		D4EBC6F41E9F0D1D0006464D /* QMapNavigationDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMapNavigationDemoViewController.m; sourceTree = "<group>"; };
 		D4FB70761E7A517A0081F79B /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		D4FB70771E7A517A0081F79B /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		D4FB707A1E7A52560081F79B /* QMapBaseDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMapBaseDemoViewController.h; sourceTree = "<group>"; };
@@ -155,6 +158,7 @@
 				D4D8EF331E8F81A7008D6704 /* 第三极.gpx */,
 				D4FB70761E7A517A0081F79B /* MasterViewController.h */,
 				D4FB70771E7A517A0081F79B /* MasterViewController.m */,
+				D4EBC6F21E9F0D1D0006464D /* NaviDemo */,
 				D4FB70791E7A52560081F79B /* BaseDemo */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -214,6 +218,15 @@
 				93197B22C75F65C7835503F7 /* Pods-TencentMapSdk_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4EBC6F21E9F0D1D0006464D /* NaviDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4EBC6F31E9F0D1D0006464D /* QMapNavigationDemoViewController.h */,
+				D4EBC6F41E9F0D1D0006464D /* QMapNavigationDemoViewController.m */,
+			);
+			path = NaviDemo;
 			sourceTree = "<group>";
 		};
 		D4FB70791E7A52560081F79B /* BaseDemo */ = {
@@ -431,6 +444,7 @@
 				6003F59E195388D20070C39A /* QMapAppDelegate.m in Sources */,
 				D4FB707C1E7A52560081F79B /* QMapBaseDemoViewController.m in Sources */,
 				D4FB70781E7A517A0081F79B /* MasterViewController.m in Sources */,
+				D4EBC6F51E9F0D1D0006464D /* QMapNavigationDemoViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

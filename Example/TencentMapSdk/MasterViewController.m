@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 
     
-    self.menuList = @[@"基本地图功能"];
+    self.menuList = @[@"基本地图功能",@"导航功能"];
 }
 
 
@@ -75,6 +75,9 @@
     switch (indexPath.row) {
         case 0:
             [self performSegueWithIdentifier:@"ShowBaseDemoIdentifier" sender:nil];
+            break;
+        case 1:
+            [self performSegueWithIdentifier:@"ShowNaviDemoIdentifier" sender:nil];
             break;
         default:
             break;
