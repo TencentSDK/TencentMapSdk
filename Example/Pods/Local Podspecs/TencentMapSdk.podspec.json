@@ -1,6 +1,6 @@
 {
   "name": "TencentMapSdk",
-  "version": "2.1.1.04.09",
+  "version": "2.1.1.11.01",
   "summary": "This is TencentMapSdk.",
   "description": "The Map Software develop kit.",
   "homepage": "https://github.com/TencentSDK/TencentMapSdk",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/TencentSDK/TencentMapSdk.git",
-    "tag": "2.1.1.04.09"
+    "tag": "2.1.1.11.01"
   },
   "platforms": {
     "ios": "8.0"
@@ -32,10 +32,14 @@
     "CoreLocation",
     "CoreTelephony",
     "Accelerate",
-    "ImageIO"
+    "ImageIO",
+    "JavaScriptCore"
   ],
   "ios": {
-    "vendored_frameworks": "TencentMapSdk/Framework/TMapBeaconAPI_SDKBase.framework"
+    "vendored_frameworks": [
+      "TencentMapSdk/Framework/TMapBeaconAPI_SDKBase.framework",
+      "TencentMapSdk/Framework/WebP.framework"
+    ]
   },
   "libraries": [
     "z",

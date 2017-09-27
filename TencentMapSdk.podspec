@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TencentMapSdk"
-  s.version          = "2.1.1.11.01"
+  s.version          = "2.1.1.11.02"
   s.summary          = "This is TencentMapSdk."
   s.description      = 'The Map Software develop kit.'
   s.homepage         = "https://github.com/TencentSDK/TencentMapSdk"
@@ -29,8 +29,8 @@ s.author           = { "eximpression" => "ex_impression@hotmail.com" }
     'TencentMapSdk/Library/libQMapSdk.a'
   ]
   s.public_header_files = 'TencentMapSdk/Classes/QMap/include/*.h'
-  s.frameworks = 'SystemConfiguration','UIKit','CoreText','OpenGLES','QuartzCore','CoreGraphics','CoreLocation','CoreTelephony', 'Accelerate','ImageIO'
-  s.ios.vendored_frameworks = 'TencentMapSdk/Framework/TMapBeaconAPI_SDKBase.framework'
+  s.frameworks = 'SystemConfiguration','UIKit','CoreText','OpenGLES','QuartzCore','CoreGraphics','CoreLocation','CoreTelephony', 'Accelerate','ImageIO','JavaScriptCore'
+  s.ios.vendored_frameworks = 'TencentMapSdk/Framework/TMapBeaconAPI_SDKBase.framework','TencentMapSdk/Framework/WebP.framework'
   s.library = 'z','stdc++','stdc++.6.0.9','sqlite3'
 
 

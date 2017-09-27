@@ -21,8 +21,8 @@
 //获取当前sdk'的运行状态
 + (sdkstatus) getSDKStatus;
 
-//得到sdk的版本
-+(NSString*) getSDKVersion;
+//得到灯塔sdk的版本
++(NSString*) getBeaconSDKVersion;
 
 //启用事件上报功能
 + (BOOL) enableEventRecord:(BOOL) enable;
@@ -130,14 +130,14 @@
 //设置渠道（灯塔事件）
 +(void) setChannelId:(NSString*) chanId;
 
+//设置SDK的版本号，宿主appVersion设置到A95扩展字段
++ (void)setSDKVersion:(NSString *)bundleVer;
+
 //设置联系方式 ,only for crash report
 + (void) setContact:(NSString*) contact;
 
-//设置bundleId
-//+ (void) setBundleId:(NSString*) bundleId;
-
-//设置bundleVersion
-+ (void) setBundleVersion:(NSString*) bundleVer;
+//设置appVersion
++ (void) setAppVersion:(NSString*) bundleVer;
 
 + (void) setGatewayIp:(NSString*) gateWayIp;
 
@@ -168,6 +168,7 @@
 
 //@end
 
+
 /**
  测试接口，只在Test的模式下生效
  **/
@@ -180,7 +181,7 @@
 + (BOOL) setEnableBeaconReport:(BOOL) enabled;
 
 //是否刷新APN
-+(BOOL) setRefresAPN:(BOOL) enabled;
+//+(BOOL) setRefresAPN:(BOOL) enabled;
 
 /**
  通用参数, 设置所有事件都会带的参数
