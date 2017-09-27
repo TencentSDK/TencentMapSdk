@@ -31,4 +31,14 @@
 @property(readonly, nonatomic) CLLocationSpeed speed;//速度
 @property(readonly, nonatomic) CLLocationDirection course;//方向角
 @property(readonly, nonatomic) CLLocationAccuracy horizontalAccuracy;//水平精度
+/**
+ * 吸附后的坐标，如果没有导航，则跟原始坐标一致
+ */
+@property(readonly, nonatomic) CLLocationCoordinate2D adjustLocation;
+/**
+ * 吸附后的角度，如果没有导航，则跟原始角度一致
+ */
+@property(nonatomic, readonly) CLLocationDirection adjustCourse;
+
+@property(nonatomic, strong)UIView *customCalloutView;
 @end

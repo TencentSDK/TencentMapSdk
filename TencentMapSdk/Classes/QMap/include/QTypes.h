@@ -44,6 +44,15 @@ typedef NS_ENUM(NSUInteger, QMapLanguage) {
     //QMapLanguageEnglish = 1,  此版本不支持，只支持中文
 };
 
+/**
+ *地图导航时的模式
+ */
+typedef NS_ENUM(NSUInteger, QMapNaviDayNightMode) {
+    QMapNaviDayNightModeAlwaysDay = 0, //始终白天
+    QMapNaviDayNightModeAlwaysNight, // 始终黑夜
+    QMapNaviDayNightModeAuto, // 自动切换
+};
+
 enum {
     QMRouteDrawMultiColorLine = 0, // 彩虹蚯蚓线
     QMRouteDrawImaginaryLine, // 虚线

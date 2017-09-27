@@ -40,7 +40,7 @@
 @property(class, nonatomic,readonly,)NSString* mapGenerateId;
 
 /**
- *版本号 2.1.1.04
+ *版本号 2.1.1.11
  */
 @property(class, nonatomic,readonly)NSString* version;
 

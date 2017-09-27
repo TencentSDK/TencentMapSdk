@@ -18,27 +18,41 @@
  */
 @property(nonatomic, strong) NSString *nextRoadName;
 /**
- *  到下一个转向的距离
+ *  到下一个转向的距离字符串
  */
 @property(nonatomic, strong) NSString *distance;
 
 /**
- *  总的剩余距离
+ *  到下一个转向的距离数值，单位米
+ */
+@property(nonatomic, assign) NSInteger distanceMeters;
+
+/**
+ *  总的剩余距离字符串
  */
 @property(nonatomic, strong) NSString *totalDistanceLeft;
+
 /**
- *  总的剩余时间
+ *  总的剩余距离数值，单位米
+ */
+@property(nonatomic, assign) int totalDistanceLeftMeters;
+
+/**
+ *  总的剩余时间字符串
  */
 @property(nonatomic, strong) NSString *timeLeft;
+
+/**
+ *  总的剩余时间数值，单位秒
+ */
+@property(nonatomic, assign) NSInteger timeLeftSeconds;
+
 /**
  *路口信息
  *请参考附件中提供的图片和图片对应表
  **/
 @property(nonatomic, strong) NSString* intersectionImageName;
 
-/**
- *  总的剩余距离,单位米
- */
-@property(nonatomic, assign) int totalDistanceLeftMeters;
+
 
 @end

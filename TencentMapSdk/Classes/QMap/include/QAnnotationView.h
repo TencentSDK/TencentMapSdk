@@ -27,7 +27,7 @@
 typedef enum:NSUInteger{
     /**指定图片与坐标点位置关系，CENTER_MODE指定坐标点中心对应Image中心，
      BOTTOM_MODE指定坐标点在Image底部中点，布局如指针等标识。**/
-    KIMAGE_DRAW_MODE_NONE = 0,
+    KIMAGE_DRAW_MODE_NONE = 0, // 当设置的anchorPoint不符合时
     KIMAGE_BOTTOM_LEFT_MODE,
     KIMAGE_BOTTOM_CENTER_MODE,
     KIMAGE_BOTTOM_RIGHT_MODE,
@@ -39,7 +39,7 @@ typedef enum:NSUInteger{
     KIMAGE_TOP_RIGHT_MODE,
 }ImageDrawMode;
 //end
-@property (nonatomic, strong) QMAnnotationView * annotationViewInternal;
+
 /**
  *初始化并返回一个annotation view
  *@param annotation 关联的annotation对象
@@ -70,10 +70,23 @@ typedef enum:NSUInteger{
 @property(nonatomic,strong)UIImage* imageIcon;
 /**annotation view显示选中的图像名称**/
 @property (nonatomic, strong) NSString *selectedImageName;
-/**当前图片与坐标点的位置关系 需要先设置imageName再设置drawMode**/
+
+/**
+ * 快速设置锚点位置, 默认为KIMAGE_MIDDLE_CENTER_MODE
+ */
 @property (nonatomic,assign) ImageDrawMode mDrawMode;
-/**annotation image 的锚点。当ImageDrawMode 不能满足要求时可以设置此属性**/
+
+/**
+ * annotation image 的锚点。当ImageDrawMode 不能满足要求时可以设置此属性
+ * 取值为(0~1),如果不设置,默认为(0.5,0.5),对应于KIMAGE_MIDDLE_CENTER_MODE
+ */
 @property(nonatomic,assign)CGPoint anchorPoint;
+
+/**
+ * 中心点的偏移量，设置的结果会与anchorPoint叠加
+ * 如：纹理的中心点为 (imageSize.width * anchorPoint.x + centerOffset.x, imageSize.height * anchorPoint.y + centerOffset.y)
+ */
+@property(nonatomic, assign)CGPoint centerOffset;
 
 /**annotation显示优先级,优先级最高是1，值越大优先级越低，默认0则不做避让处理**/
 @property(nonatomic, assign) NSInteger dispLevel;//display Priority
@@ -101,12 +114,18 @@ typedef enum:NSUInteger{
 @property (nonatomic, getter=isSelected) BOOL selected;
 
 /**
+ * 当手势点击时是否动画的方式弹出弹出calloutView, 默认为YES
+ */
+@property(nonatomic, assign)BOOL showCalloutAnimatedWhenTapped;
+
+/**
  *设定view的选中状态
  *该方法被QMapView调用
  *@param selected 如果view需要显示为选中状态，该值为YES
- *@param animated 如果需要动画效果，该值为YES 
+ *@param animated 如果需要动画效果，该值为YES
  */
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+
 
 - (void)setCalloutViewIsUnder:(BOOL)isUnder;
 

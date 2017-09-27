@@ -25,6 +25,7 @@
 #import "QttsParam.h"
 #import "QOverspeedInfo.h"
 #import "QRouteInfo.h"
+#import "QUserLocationView.h"
 
 @class RouteResult;
 @class QPointAnnotation;
@@ -89,9 +90,54 @@
 @property(nonatomic, assign) BOOL showsCompass;
 
 /**
+ 调整地图重绘的帧率，默认为1
+ */
+@property(nonatomic, assign) NSInteger frameInterval;
+
+/**
  * 设置地图语言
  */
 @property(nonatomic, assign) QMapLanguage mapLanguage;
+
+/**
+ * 车道线view在QMapView上的Y轴坐标，车道线view默认水平居中显示
+ * 专快等业务线有自己的导航界面，因此需要设置此属性，其他使用腾讯内部导航界面的业务线，不需要设置此属性，默认在导航面板的下方显示
+ */
+@property (nonatomic, assign) CGFloat laneViewPositionY;
+
+/**
+ * 外部提供的导航图片资源路径，导航图片资源包含【车道线，转向标,电子眼标, 底图各种marker图标】
+ * 如果不设置该属性或者该属性提供的资源路径不存在，则使用导航内部默认的图片资源
+ * 外部提供的导航图片资源命名必须与导航内部默认的图片命名保持一致，否则无法获取到
+ */
+@property (nonatomic, strong) NSString *externalResourcePath;
+
+/**
+ * 车道线功能开关
+ */
+@property (nonatomic, assign, getter=isLaneViewEnabled) BOOL laneViewEnabled;
+
+/**
+ * 路口放大图功能开关
+ */
+@property (nonatomic, assign, getter=isRoadEnlargementViewEnabled) BOOL roadEnlargementViewEnabled;
+
+/**
+ * 路口放大图view在QMapView上的Y轴坐标，路口放大图view的宽默认为屏幕宽，根据宽对高进行等比拉伸
+ * 专快等业务线有自己的导航界面，因此需要设置此属性，其他使用腾讯内部导航界面的业务线，不需要设置此属性，默认在导航面板的下方显示
+ */
+@property (nonatomic, assign) CGFloat roadEnlargementViewPositionY;
+
+/**
+ * 电子眼实景图开关
+ */
+@property (nonatomic, assign, getter=isCameraViewEnabled) BOOL cameraViewEnabled;
+
+/**
+ * 电子眼实景图view在QMapView上的Y轴坐标，电子眼实景图view的宽默认为屏幕宽，根据宽对高进行等比拉伸
+ * 专快等业务线有自己的导航界面，因此需要设置此属性，其他使用腾讯内部导航界面的业务线，不需要设置此属性，默认在导航面板的下方显示
+ */
+@property (nonatomic, assign) CGFloat cameraViewPositionY;
 
 /**
  * 设置地图比例尺偏移
@@ -132,6 +178,21 @@
  * @param yOffset 指南针中心Y基于默认位置的偏移量
  */
 - (void) setCompassYOffSet:(CGFloat)yOffset;
+
+/*
+ * 当前地图的旋转角度
+ */
+@property(nonatomic, assign)CGFloat rotation;
+
+/*
+ * 当前地图的俯视角度,0 ~ 45
+ */
+@property(nonatomic, assign)CGFloat overlooking;
+
+/*
+ * 设置地图的旋转角度与俯视角度
+ */
+-(void)setRotation:(CGFloat)rotation overlooking:(CGFloat)overlooking animated:(BOOL)animated;
 
 /**
  * 显示自定义的路况数据
@@ -327,6 +388,11 @@
    只提供了经纬度，title，subtitle等信息
  */
 @property(nonatomic, readonly) QUserLocation *userLocation;
+
+/**
+ * 当前用户位置View,可以设置用户位置图片
+ */
+@property(nonatomic, readonly) QUserLocationView *userLocationView;
 
 /**
  * 返回定位坐标点是否在当前地图可视区域内
@@ -749,6 +815,16 @@
               imageName:(NSString*)imageName
                drawMode:(ImageDrawMode)drawMode;
 /**
+ * 更新annotation的image和锚点
+ * @param annotation 要设定的annotation
+ * @param imageIcon 更新的图片
+ * @param drawMode 图片的AnchorPoint
+ */
+-(void)updateAnnotation:(id<QAnnotation>)annotation
+              imageIcon:(UIImage*)imageIcon
+               drawMode:(ImageDrawMode)drawMode;
+
+/**
  * 更新annotation的坐标
  * @param annotation 要设定的annotation
  * @param coordinate 移动后的坐标点
@@ -930,6 +1006,11 @@
 @property(nonatomic,assign)UIEdgeInsets edgePaddingFor2DNorthOverView;
 
 /**
+ * 在导航中，当用户拖动或触碰地图后，地图回到跟踪态的延迟时间，如果不设置，默认是10秒，如果设置的值小于0，则默认为10秒
+ */
+@property (nonatomic, assign) CGFloat delayTime;
+
+/**
  * 搜索到驾车线路后开始导航
  * @return 是否成功开启导航
  */
@@ -977,11 +1058,20 @@
  */
 -(void)stopWalkNavigation;
 
+/**
+ * 地图导航时的模式,默认是始终白天
+ */
+@property(nonatomic, assign) QMapNaviDayNightMode naviDayNightMode;
+
+/**
+ * 强制播报
+ */
+- (void)forcePlayTTS;
+
 #pragma mark - Route
 
 /**
- * 设置路线宽度
- * 传入的是乘过[UIScreen mainScreen].scale之后的值
+ * 设置路线宽度，单位为Point
  * 设置了QMapView的线宽，默认线宽值将失效，如果需要保持每条线的线宽不一致，需要在路线生成后重新设置线宽
  */
 @property (nonatomic, assign) NSInteger lineWidth;
@@ -1378,6 +1468,11 @@ automaticAjustVisibleMapRect:(BOOL)automaticAjustVisibleMapRect;
  */
 @property(nonatomic, readonly) BOOL isInforeGround;
 
+/*
+ * 非导航下返回NO，导航下返回底图是否是黑夜样式(轻导航下始终是白天样式)
+ */
+@property (nonatomic, readonly) BOOL mapIsNightStyle;
+
 /**
  * 移除电子眼overlay
  */
@@ -1411,13 +1506,6 @@ automaticAjustVisibleMapRect:(BOOL)automaticAjustVisibleMapRect;
 - (BOOL)isEraseRouteMode;
 
 /**
- * 挪动地图后，过了delayTime后，地图自动回到挪动前的跟踪模式，在3D导航下应用
- @param block 地图回到挪动前的跟踪模式的响应事件
- @param delayTime 地图在非跟踪模式持续的时间，delayTime过后，执行block，地图回到跟踪模式
- */
-- (void)setContinue3DTrackingBlock:(void (^)())block afterTime:(CGFloat)delayTime;
-
-/**
  * 挪动地图后，地图自动回到挪动前的跟踪模式，在司乘同显中应用
  @param block 地图回到跟踪模式的延迟响应事件
  @param delayTime 地图在非跟踪模式持续的时间，delayTime过后，执行block，地图回到跟踪模式
@@ -1438,6 +1526,16 @@ automaticAjustVisibleMapRect:(BOOL)automaticAjustVisibleMapRect;
  */
 - (QMapRect)getRouteLineLeftVisibleRect:(int)type;
 
+/**
+ 获取途经点最佳视野
+ 
+ @param routeGroupType 获取最佳视野的type
+ @param fromIndex 起点0，第一个途经点为1，以此类推，如果当前位置，fromIndex传-1
+ @param toIndex 与fromIndex相同,>= fromIndex
+ @return 最佳视野
+ */
+-(QMapRect)getRouteLineLeftVisibleRect:(int)routeGroupType fromIndex:(NSInteger) fromIndex toIndex:(NSInteger)toIndex;
+
 /*
  * 获取路线类型为type的路线的可见区域
  */
@@ -1445,6 +1543,18 @@ automaticAjustVisibleMapRect:(BOOL)automaticAjustVisibleMapRect;
 
 /**
  * 走过的路置灰
+ * @param pPoint 当前点
+ * @param pointIndex 点索引
+ * @param groupIndex routeGroup索引
+ * @param isEraseRouteMode YES：擦除 NO：置灰
+ */
+- (void)setRoutePassedPoint:(QMapPoint)pPoint
+                     pointIndex:(int)pointIndex
+            routeGroupIndex:(NSInteger)groupIndex
+           isEraseRouteMode:(BOOL)isEraseRouteMode;
+
+/**
+ * 走过的路置灰+导航底图动态缩放
  */
 - (void)setLocationForNavigation:(QMapPoint *)pPoint
                      nPointIndex:(int)nPointIndex
@@ -1513,6 +1623,27 @@ automaticAjustVisibleMapRect:(BOOL)automaticAjustVisibleMapRect;
  * 获取导航时地图的显示模式
  */
 - (QMapNaviShowMode)currentMapNaviShowMode;
+
+/**
+ * 设置导航面板顶部遮盖地图的高度，在导航界面元素发生变化时（比如路口放大图，车道线，电子眼实景图显示和隐藏）需要调用该方法
+ */
+- (void)setTopNaviBarHeight:(CGFloat)height;
+
+/** 返回当前吸附点到途径点的距离，如果途径点已经走过,或者途径点索引无效，则返回-1
+ * @param passPointIndex 途径点的索引
+ * @return 当前吸附点到途径点的距离，单位：米
+ */
+- (int)distanceToPassPoint:(int)passPointIndex;
+
+/** 返回当前吸附点到途径点的时间，如果途径点已经走过，或者途径点索引无效，则返回-1
+ * @param passPointIndex 途径点的索引
+ * @return 当前吸附点到途径点的时间，单位：秒
+ */
+- (int)remainTimeToPassPoint:(int)passPointIndex;
+
+/** 返回与当前点最近的下一个途径点的索引，如果途径点数组为空，或者已经经过了所有的途径点，或者当前点没有吸附上，则返回-1
+ */
+- (int)nextPassPointIndex;
 
 @end
 /**
@@ -1771,5 +1902,66 @@ automaticAjustVisibleMapRect:(BOOL)automaticAjustVisibleMapRect;
  *  @param error 失败信息
  */
 - (void)recomputeRouteDidFailWithErrorFinally:(QRouteSearchError *)error;
+
+/**
+ *  导航下底图黑白样式切换的回调
+ *  @param isNightStyle 是否是黑夜样式
+ */
+- (void)mapDayNightStyleChanged:(BOOL)isNightStyle;
+
+/**
+ *  显示路口放大图
+ *  @param image 路口放大图图片
+ */
+- (void)showRoadEnlargementView:(UIImage *)image;
+
+/**
+ *  隐藏路口放大图
+ */
+- (void)hideRoadEnlargementView;
+
+/**
+ *  显示车道线
+ *  @param laneView 车道线view
+ */
+- (void)showLaneView:(UIView *)laneView;
+
+/**
+ *  隐藏车道线
+ */
+- (void)hideLaneView;
+
+/**
+ *  显示电子眼实景图
+ *  @param image 电子眼实景图图片
+ */
+- (void)showCameraLiveView:(UIImage *)image;
+
+/**
+ *  隐藏电子眼实景图
+ */
+- (void)hideCameraLiveView;
+
+/**
+ *  到达途径点的回调
+ *
+ *  @param passPointindex 途径点的索引
+ */
+- (void)arrivePassPoint:(NSInteger)passPointindex;
+
+/**
+ *  进入高速回调
+ */
+- (void)arriveFreeWay;
+
+/*
+ * 当用户触碰了地图后引起地图失去跟踪态的回调，当地图还未归位时继续触碰地图，不会调用该回调
+ */
+- (void)mapViewDidLoseTrackingForUserTouch:(QMapView *)mapView;
+
+/*
+ * 地图回归到跟踪态的回调，有以下两个触发条件，1:用户触碰地图一段时间后，地图自动回到跟踪态；2:调用continueNavigation后引起的地图回到跟踪态
+ */
+- (void)mapViewDidRestoreTracking:(QMapView *)mapView;
 
 @end

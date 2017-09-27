@@ -24,8 +24,6 @@
  */
 @property(nonatomic, assign) CLLocationCoordinate2D coordinate;
 
-@property(nonatomic, assign) BOOL canMaskAnimation;
-
 @property(nonatomic,assign)BOOL autoAdjustCalloutViewPositon;
 
 @optional
@@ -40,7 +38,7 @@
  *获取annotation标题
  *@return 返回annotation的副标题信息
  */
-- (NSString *)subTitle;
+- (NSString *)subtitle;
 
 /**自定义UIView**/
 @property(nonatomic, strong)UIView *customCalloutView;

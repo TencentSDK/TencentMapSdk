@@ -20,9 +20,7 @@
     NSString *_title;
     NSString *_subtitle;
     UIView *_customCalloutView;
-//    Boolean *_canMaskAnimation;
 }
-@property(nonatomic, assign) BOOL canMaskAnimation;
 /**标题**/
 @property(nonatomic, copy) NSString *title;
 
@@ -33,9 +31,6 @@
 
 /**设置是否自动调整calloutView气泡位置**/
 @property(nonatomic,assign)BOOL autoAdjustCalloutViewPositon;
-
-//
-//@property(nonatomic, readwrite)Boolean *canMaskAnimation;
 
 
 @end

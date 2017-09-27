@@ -9,7 +9,7 @@
  */
 
 #import "QOverlayPathView.h"
-#import "QPolyLine.h"
+#import "QPolyline.h"
 
 /**
  *QPolylineView:定义一个折线View

@@ -11,6 +11,8 @@
 #import "QTypes.h"
 #import "QGeometry.h"
 
+#define MAX_COLOR_COUNT 16
+
 typedef NS_ENUM(NSUInteger, BezierType) {
     FirstLevelBezier = 0,
     SecondLevelBezier,
@@ -30,8 +32,9 @@ typedef NS_ENUM(NSUInteger, BezierType) {
 @property(nonatomic, assign) NSInteger startNum;
 /**endNum是这段线的终点的索引位置**/
 @property(nonatomic, assign) NSInteger endNum;
-/**这段线的颜色，是彩虹蚯蚓纹理颜色的索引值，例如绿色是4**/
-@property(nonatomic, assign) NSInteger color;
+/**这段线的颜色纹理索引，是彩虹蚯蚓纹理颜色的索引值，例如绿色是4**/
+@property(nonatomic, assign) NSUInteger colorIndex;
+
 /**路线的速度，保留值**/
 @property(nonatomic, assign) NSInteger speed;
 /**路线的名称，保留值**/
@@ -44,7 +47,7 @@ typedef NS_ENUM(NSUInteger, BezierType) {
 @property(nonatomic, strong) NSMutableArray* arrPoint;
 /**每一条路线的所有分段信息，成员类型是QRouteLine**/
 @property(nonatomic, strong) NSMutableArray* arrLine;
-/**每一条路线的线宽，是乘过[UIScreen mainScreen].scale之后的像素值**/
+/**每一条路线的线宽,单位是Point*/
 @property(nonatomic, assign) CGFloat lineWidth;
 /**每一条路线的类型，分彩虹蚯蚓，点纹理，虚线类型**/
 @property(nonatomic, assign) QMRouteDrawType drawType;
@@ -52,9 +55,28 @@ typedef NS_ENUM(NSUInteger, BezierType) {
 /**彩虹蚯蚓多纹理的行数，彩虹蚯蚓纹理使用的属性**/
 @property(nonatomic, assign) int textureRow;
 
+/*箭头纹理名称,如果不在mainBundle下，请用绝对路径*/
+@property(nonatomic, strong) NSString* arrowImageName;
+
 /**彩虹蚯蚓点纹理的间距(icon大小的倍数)，点纹理使用的属性**/
 @property(nonatomic, assign) CGFloat dottedLineStep;
 
+/**
+ * 蚯蚓线上箭头宽度
+ *arrowSpacing默认值为100，单位为point，所以变化间距为100~200point
+ */
+@property(nonatomic, assign)CGFloat arrowSpacing;
+
+/**
+ * 点路线的间距
+ * footPrintSpacing 默认值为30，单位为point，所以变化间距为30~60point
+ */
+@property(nonatomic, assign)CGFloat footPrintSpacing;
+
+/**
+ * 路线的优先级
+ */
+@property(nonatomic, assign)NSInteger dispLevel;
 
 /**是否绘制路线上的箭头，只有彩虹蚯蚓才能画箭头**/
 @property(nonatomic, assign) BOOL isDrawArrow;
@@ -62,16 +84,26 @@ typedef NS_ENUM(NSUInteger, BezierType) {
 /**是否绘制路线两端的半圆纹理，只有彩虹蚯蚓才能画端纹理**/
 @property(nonatomic, assign) BOOL isDrawCap;
 
-/*彩虹蚯蚓不同的纹理效果在一张图片内*/
+/*
+ * 彩虹蚯蚓不同的纹理效果在一张图片内
+ */
 @property(nonatomic, strong) NSString* textureNameMultiLine;
 
-/*彩虹蚯蚓配对的两端半圆纹理
+/**
+ * 自定义颜色列表,最多16个UIColor, 多出不起作用
  */
-@property(nonatomic, strong) NSString* textureNameMultiCap;
+@property(nonatomic, strong)NSArray<UIColor *> *colorListForMultiLine;
 
+/**
+ * 是否使用 textureNameMultiLine 作为路线颜色
+ * 如果为NO, 则使用colorListForMultiLine作为路线颜色
+ * 默认为YES, 如果为NO但是colorListForMultiLine无有效的颜色值,则使用textureNameMultiLine
+ */
+@property(nonatomic, assign)BOOL useTextureForMultiLine;
 
 /**虚线绘制纹理文件名,可用来更换纹理，必须含有扩展名**/
 @property(nonatomic, strong) NSString* textureNameImaginaryLine;
+
 /**点线绘制纹理文件名,可用来更换纹理，必须含有扩展名**/
 @property(nonatomic, strong) NSString* textureNameDottedLine;
 
@@ -83,7 +115,8 @@ typedef NS_ENUM(NSUInteger, BezierType) {
  */
 @property (nonatomic,assign) BOOL isUserDefaultControl;
 
-/*贝塞尔曲线控制点数
+/**
+ * 贝塞尔曲线控制点数
  */
 @property (nonatomic,strong) NSArray* controlPoints;
 

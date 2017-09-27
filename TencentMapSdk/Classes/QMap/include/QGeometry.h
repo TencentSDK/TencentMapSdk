@@ -24,9 +24,18 @@ typedef unsigned int QMapColor;
  * @param a alpha 0~255
  * @return QMapColor HexColor
  */
-UIKIT_STATIC_INLINE QMapColor QMapColorMake(unsigned char r, unsigned char g, unsigned char b, unsigned char a) {
-    return (((r) << 0) | ((g) << 8) | ((b) << 16) | ((a) << 24));
-}
+QMapColor QMapColorMake(unsigned char r, unsigned char g, unsigned char b, unsigned char a);
+
+/**
+ * 从UIColor返回QMapColor
+ */
+QMapColor QMapColorFromUIColor(UIColor* color);
+
+/**
+ * 从UIColor返回QMapColor
+ */
+UIColor* UIColorFromQMapColor(QMapColor color);
+
 /**经纬度范围**/
 typedef struct {
     CLLocationDegrees latitudeDelta;/**纬度范围**/

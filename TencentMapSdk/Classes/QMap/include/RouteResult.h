@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "QGeometry.h"
+#import "QRouteInfo.h"
 
 @class QPlaceInfo;
 @class QYZXRouteReq;
@@ -120,9 +121,23 @@ typedef struct _GuidanceMapPoint
 
 /**
  *  选中路线点串
+ *  点串格式为差分的墨卡托坐标，以分号相隔
  *
  *  @return 选中路线的路线点串
  */
 - (NSString*)selectedRouteGeoPoints;
+
+/**
+ *  选中路线点串数组
+ *  点串为经纬度坐标
+ *
+ *  @return 选中路线的路线点串
+ */
+- (NSArray <QRoutePoint *> *)selectedRoutePointsArray;
+
+/**
+ * 返回range里的点串对应的路况信息
+ */
+- (NSArray <QRouteLine *> *)routeLineArrayFromPointRange:(NSRange)range;
 
 @end

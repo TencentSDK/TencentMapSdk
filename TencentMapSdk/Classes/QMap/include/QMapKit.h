@@ -46,5 +46,6 @@
 #import "QRouteInfo.h"
 
 #import "QDebugLogApi.h"
+#import "SimpleNavigation.h"
 
 #endif
