@@ -703,8 +703,9 @@
 - (QCoordinateRegion)convertRect:(CGRect)rect toRegionFromView:(UIView *)view;
 
 /**
- * 获取反转偏移坐标
- * return 转换后的坐标
+ * 获取偏移坐标
+ * @param coordinate GPS经纬度坐标
+ * @return 转换后的火星坐标
  **/
 -(CLLocationCoordinate2D)coordinateOffset:(CLLocationCoordinate2D)coordinate;
 
@@ -715,9 +716,9 @@
 -(CGFloat)metersPerPointForCurrentZoomLevel;
 
 /**
- * 获取反转偏移坐标
- * @param coordinate 火星坐标
- * @return 转换后的坐标
+ * 获取偏移坐标
+ * @param coordinate GPS经纬度坐标
+ * @return 转换后的火星坐标
  */
 +(CLLocationCoordinate2D)coordinateOffset:(CLLocationCoordinate2D)coordinate;
 

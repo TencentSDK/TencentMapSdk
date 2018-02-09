@@ -33,7 +33,7 @@
 //驾车路线搜索参数：是否避免收费道路,默认值NO
 @property(nonatomic, assign) BOOL notoll;
 
-//驾车路线搜索参数：是否结合路况,默认值YES
+//驾车路线搜索参数：是否结合路况,默认值NO
 @property(nonatomic, assign) BOOL traffic;
 
 //驾车路线搜索参数：行车方向角度(默认-1.0,0~360顺时针角度值)

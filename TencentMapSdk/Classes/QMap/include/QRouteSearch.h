@@ -388,7 +388,7 @@ typedef enum  {
 @interface QOrderExtraInfo : NSObject
 
 @property (nonatomic, copy) NSString *order_id;         //订单id
-@property(nonatomic) int nav_scene;                     //0未定义 从1开始   导航业务场景：接驾 去目的地 点亮厕所 等  目前 0不用   从1开始   1表示去接乘客    2表示去送乘客
+@property(nonatomic) int nav_scene;                     //导航场景：1表示去接乘客 2表示去送乘客 默认值为1
 @property (nonatomic, copy) NSString *biz_type;         //快车、专车等  用字符串 填英文  能区分快车 专车等
 
 @end

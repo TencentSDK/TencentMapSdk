@@ -94,20 +94,20 @@ typedef struct _GuidanceMapPoint
 - (int)getRoutesCount;
 
 /**
- *  个性化路线推荐理由
+ *  路线推荐理由
  *
  *  @param index 路线索引
  *
- *  @return 个性化路线推荐理由
+ *  @return 路线推荐理由
  */
 - (NSString*)getRecommendReason:(int)index;
 
 /**
- *  个性化路线推荐类型
+ *  路线推荐类型
  *
  *  @param index 路线索引
  *
- *  @return 个性化路线推荐类型
+ *  @return 路线推荐类型
  */
 - (NSString*)getRecommendType:(int)index;
 
