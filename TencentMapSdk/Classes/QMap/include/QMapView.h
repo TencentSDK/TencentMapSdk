@@ -1602,6 +1602,24 @@ automaticAjustVisibleMapRect:(BOOL)automaticAjustVisibleMapRect;
  */
 - (void)recalculateRouteDidFailWithErrorFinally:(QRouteSearchError *)error;
 
+/**
+ * 设置2D导航时自车点位置在地图上位置的比例 默认值为(0.5,0.5)
+ * x取值范围为[0.25,0.75] 表示从屏幕左边起的宽度比例
+ * y取值范围为[0.25,0.75] 表示从屏幕上边起的高度比例
+ * 若设置值不在区间内 则使用默认值
+ * @param proportion 自车点比例
+ */
+- (void)setNaviFixCarProportion2D:(CGPoint)proportion;
+
+/**
+ * 设置3D导航时自车点位置在地图上位置的比例 默认值为(0.5,0.75)
+ * x取值范围为[0.25,0.75] 表示从屏幕左边起的宽度比例
+ * y取值范围为[0.25,0.75] 表示从屏幕上边起的高度比例
+ * 若设置值不在区间内 则使用默认值
+ * @param proportion 自车点比例
+ */
+- (void)setNaviFixCarProportion3D:(CGPoint)proportion;
+
 /*
  * 设置导航时地图的显示模式
  * 如果导航开始前已经设置了模式，导航后就用设置的模式，否则会自动设置成QMapNaviShowMode3DHeadingBestView
@@ -1849,6 +1867,15 @@ automaticAjustVisibleMapRect:(BOOL)automaticAjustVisibleMapRect;
 
 @optional
 -(void) updateRouteResult:(QMRoute*)routeResult;
+
+/**
+ 路况刷新的回调
+ 
+ @param totalDistance  路线总距离
+ @param retainDistance 路线剩余距离
+ @param trafficItems   线路路况数组，包括每段线路的路况状态和长度
+ */
+-(void) updateRouteTrafficWithTotalDistance:(NSInteger)totalDistance retainDistance:(NSInteger)retainDistance routeTrafficItems:(NSArray<QRouteTrafficItem*>*)trafficItems;
 
 /**
  tts播报的回调

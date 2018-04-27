@@ -165,4 +165,19 @@ typedef NS_ENUM(NSUInteger, BezierType) {
 
 @end
 
+@interface QRouteTrafficItem : NSObject
+
+/**
+ 线路路况状态
+ 0: 通畅 1:缓行 2:堵塞 3:未知路况 4:严重堵塞
+ */
+@property(nonatomic)NSInteger color;
+
+/**
+ 线路距离
+ */
+@property(nonatomic)NSInteger distance;
+
+@end
+
 
